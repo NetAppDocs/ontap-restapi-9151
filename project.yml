@@ -1,5 +1,6 @@
 settings:
-  name: ONTAP REST API reference 
+  name: ONTAP REST API reference
+  downlevel: true
   lipi_enabled: false
   github_edit: false
   internal:
