@@ -111800,8 +111800,11 @@ definitions:
         x-ntap-introduced: '9.6'
         x-nullable: true
       index:
-        description: Internal index for accessing records with same time/node. This
-          is a 64 bit unsigned value.
+        description: Internal index for accessing records with the same time and node. This
+          is a 64-bit unsigned value that is used to order the audit log messages before
+          they are displayed. If multiple entries for the same node
+          and timestamp occur simultaneously, the index assigns an order to ensure logical 
+          consistency.
         readOnly: true
         type: integer
         x-ntap-introduced: '9.6'
@@ -275727,7 +275730,10 @@ paths:
       description: "## Overview\nThese APIs return audit log records. The GET requests
         retrieves all audit log records. An audit log record contains information
         such as timestamp, node name, index and so on.\n<br />\n---\n## Example\n###
-        Retrieving audit log records\nThe following example shows the audit log records.\n<br
+        Retrieving audit log records\nThe following example shows the audit log records.
+        Note: The index field is used to order the audit log messages before 
+        they are displayed. If multiple entries for the same node and timestamp occur 
+        simultaneously, the index assigns an order to ensure logical consistency.\n<br
         />\n---\n```\n# The API:\n/api/security/audit/messages\n# The call:\ncurl
         -X GET \"https://<cluster-ip>/api/security/audit/messages\"\n# The response:\n{\n
         \ \"records\": [\n    {\n      \"timestamp\": \"2019-03-08T11:03:32-05:00\",\n
