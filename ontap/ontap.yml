@@ -145015,7 +145015,7 @@ paths:
         \"success\",\n  \"message\": \"success\",\n  \"code\": 0,\n  \"_links\": {\n
         \   \"self\": {\n      \"href\": \"/api/cluster/jobs/f587d316-5feb-11e8-b0e0-005056956dfc\"\n
         \   }\n  }\n}\n```\n---\n#### HTTPS error codes\nThe following is a list of
-        possible error codes that can be returned during a package delete operation.\n<br/>\n```\n#
+        possible error codes that can be returned during a package delete operation.\n<br/>\n#
         ONTAP Error Response codes\n| ----------- | --------------------------------------------------------
         |\n| Error codes |                     Description                          |\n|
         ----------- | -------------------------------------------------------- |\n|
@@ -145033,7 +145033,7 @@ paths:
         \            | cluster                                                  |\n|
         10551567    | Package version is not available in the package          |\n|
         \            | repository on the MetroCluster partner cluster           |\n|
-        ----------- | -------------------------------------------------------- |\n```\n---\n###
+        ----------- | -------------------------------------------------------- |\n---\n###
         Retrieving software installation history information\nThe following example
         shows how to:\n   - retrieve the software package installation history information.\n
         \  - display specific node level software installation history information.\n
