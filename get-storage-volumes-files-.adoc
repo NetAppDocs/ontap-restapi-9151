@@ -417,14 +417,19 @@ a|Filter by creation_time
 |False
 a|Request that returned link:analytics_histogram_by_time.html[analytics_histogram_by_time]  objects including values associated with the specified labels.
 
-As described in the object description, the labels may take the following forms:* _partial-date_
+As described in the object description, the labels may take the following forms:<ul>
+ _partial-date_
+ +++<tt>+++--+++</tt>+++ _partial-date_
+ _partial-date_ +++<tt>+++--+++</tt>+++
+ _partial-date_+++<tt>+++-+++</tt>+++-_partial-date_
+ +++<tt>+++unknown+++</tt>+++
 
-* +++<tt>+++--+++</tt>+++_partial-date_
-* _partial-date_+++<tt>+++--+++</tt>+++
-* _partial-date_+++<tt>+++-+++</tt>+++ -_partial-date_
-* +++<tt>+++unknown+++</tt>+++
-Intervals that the system would not normally return may be specified.  In this case, the appropriate values and percentages summarizing all files with a time-based attribute within the indicated period of time are calculated and returned in the response.  However, there are some restrictions:* Any _partial-date_ specified as the beginning or end of an interval must be tracked by the system.  Valid __partial-date__s may be determined by making an OPTIONS request to the +++<tt>+++/storage/volumes/{volume.uuid}/files/\{path}+++</tt>+++ endpoint.
-* Intervals may not mix week-based __partial-date__s in the form _yyyy_-W__ww__ with other types of __partial-date__s.
+</ul>Intervals that the system would not normally return may be specified.  In this case, the appropriate values and percentages summarizing all files with a time-based attribute within the indicated period of time are calculated and returned in the response.  However, there are some restrictions:<ul>
+ Any _partial-date_ specified as the beginning or end of an interval must be tracked by the system. Valid __partial-date__s may be determined by making an OPTIONS request to the +++<tt>+++/storage/volumes/{volume.uuid}/files/\{path}+++</tt>+++ endpoint.
+ Intervals may not mix week-based __partial-date__s in the form _yyyy_-W__ww__ with other types of __partial-date__s.
+
+</ul>
+
 * Introduced in: 9.8
 
 
@@ -560,7 +565,7 @@ a|
           "href": "/api/resourcelink"
         }
       },
-      "accessed_time": "2019-06-12 11:00:16 -0400",
+      "accessed_time": "2019-06-12 15:00:16 +0000",
       "analytics": {
         "by_accessed_time": {
           "bytes_used": {
@@ -633,12 +638,12 @@ a|
         "subdir_count": 35
       },
       "bytes_used": 4096,
-      "changed_time": "2019-06-12 11:00:16 -0400",
+      "changed_time": "2019-06-12 15:00:16 +0000",
       "constituent": {
         "name": "fg__0001",
         "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
       },
-      "creation_time": "2019-06-12 11:00:16 -0400",
+      "creation_time": "2019-06-12 15:00:16 +0000",
       "group_id": 30,
       "hard_links_count": 1,
       "inode_generation": 214753547,
@@ -647,7 +652,7 @@ a|
       "is_junction": "",
       "is_snapshot": "",
       "is_vm_aligned": "",
-      "modified_time": "2019-06-12 11:00:16 -0400",
+      "modified_time": "2019-06-12 15:00:16 +0000",
       "name": "test_file",
       "owner_id": 54738,
       "path": "d1/d2/d3",

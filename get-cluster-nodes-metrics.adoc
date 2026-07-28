@@ -172,7 +172,7 @@ a|
       "duration": "PT15S",
       "processor_utilization": 13,
       "status": "ok",
-      "timestamp": "2017-01-25 06:20:13 -0500",
+      "timestamp": "2017-01-25 11:20:13 +0000",
       "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
     }
   ]

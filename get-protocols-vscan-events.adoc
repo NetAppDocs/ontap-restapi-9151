@@ -216,7 +216,7 @@ a|
   "records": [
     {
       "disconnect_reason": "string",
-      "event_time": "2021-11-24 23:29:41 -0500",
+      "event_time": "2021-11-25 04:29:41 +0000",
       "file_path": "/1",
       "interface": {
         "_links": {

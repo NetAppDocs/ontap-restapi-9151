@@ -50,7 +50,7 @@ a|
   "eula": {
     "accepted": 1,
     "accepted_ip_address": "192.168.1.125",
-    "accepted_timestamp": "2020-12-01 08:12:23 -0500",
+    "accepted_timestamp": "2020-12-01 13:12:23 +0000",
     "user_id_accepted": "admin"
   }
 }

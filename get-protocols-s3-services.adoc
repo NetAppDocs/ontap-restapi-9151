@@ -1098,7 +1098,7 @@ a|
                     }
                   },
                   "object_age_days": 100,
-                  "object_expiry_date": "2039-09-22 20:00:00 -0400"
+                  "object_expiry_date": "2039-09-23 00:00:00 +0000"
                 },
                 "name": "string",
                 "non_current_version_expiration": {
@@ -1261,7 +1261,7 @@ a|
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 06:20:13 -0500"
+        "timestamp": "2017-01-25 11:20:13 +0000"
       },
       "name": "Server-1",
       "port": 80,
@@ -1283,7 +1283,7 @@ a|
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 06:20:13 -0500"
+        "timestamp": "2017-01-25 11:20:13 +0000"
       },
       "svm": {
         "_links": {
@@ -1298,7 +1298,7 @@ a|
         {
           "access_key": "<AWS-ACCESS-KEY-ID>",
           "comment": "S3 user",
-          "key_expiry_time": "2023-12-31 19:00:00 -0500",
+          "key_expiry_time": "2024-01-01 00:00:00 +0000",
           "key_time_to_live": "PT6H3M",
           "name": "user-1",
           "svm": {

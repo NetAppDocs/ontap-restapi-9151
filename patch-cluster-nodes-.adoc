@@ -152,7 +152,7 @@ a|Controller information
 a|The current or "wall clock" time of the node in ISO-8601 date, time, and time zone format.
 The ISO-8601 date and time are localized based on the ONTAP cluster's timezone setting.
 
-* example: 2019-04-17 11:49:26 -0400
+* example: 2019-04-17 15:49:26 +0000
 * format: date-time
 * readOnly: 1
 * Introduced in: 9.6
@@ -347,7 +347,7 @@ a|
     "memory_size": 1024000000,
     "over_temperature": "string"
   },
-  "date": "2019-04-17 11:49:26 -0400",
+  "date": "2019-04-17 15:49:26 +0000",
   "external_cache": {
     "is_enabled": 1,
     "is_hya_enabled": 1,
@@ -470,7 +470,7 @@ a|
     "type": "string"
   },
   "snaplock": {
-    "compliance_clock_time": "2018-06-04 15:00:00 -0400"
+    "compliance_clock_time": "2018-06-04 19:00:00 +0000"
   },
   "state": "string",
   "storage_configuration": "string",
@@ -2030,7 +2030,7 @@ a|Controller information
 a|The current or "wall clock" time of the node in ISO-8601 date, time, and time zone format.
 The ISO-8601 date and time are localized based on the ONTAP cluster's timezone setting.
 
-* example: 2019-04-17 11:49:26 -0400
+* example: 2019-04-17 15:49:26 +0000
 * format: date-time
 * readOnly: 1
 * Introduced in: 9.6
