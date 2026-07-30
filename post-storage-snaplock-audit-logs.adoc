@@ -106,7 +106,7 @@ a|SVM, applies only to SVM-scoped objects.
   "log_files": [
     {
       "base_name": "string",
-      "expiry_time": "2058-06-04 15:00:00 -0400",
+      "expiry_time": "2058-06-04 19:00:00 +0000",
       "path": "/snaplock_log/system_logs/20180822_005947_GMT-present",
       "size": 20000
     }

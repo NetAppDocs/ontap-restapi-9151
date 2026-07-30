@@ -166,12 +166,12 @@ a|
 [source,json,subs=+macros]
 {
   "comment": "string",
-  "create_time": "2019-02-04 14:00:00 -0500",
+  "create_time": "2019-02-04 19:00:00 +0000",
   "delta": {
     "size_consumed": 0,
     "time_elapsed": "string"
   },
-  "expiry_time": "2019-02-04 14:00:00 -0500",
+  "expiry_time": "2019-02-04 19:00:00 +0000",
   "logical_size": 1228800,
   "name": "this_snapshot",
   "owners": [
@@ -183,10 +183,10 @@ a|
   "size": "122880",
   "snaplock": {
     "expired": 1,
-    "expiry_time": "2019-02-04 14:00:00 -0500",
+    "expiry_time": "2019-02-04 19:00:00 +0000",
     "time_until_expiry": "PT3H27M45S"
   },
-  "snaplock_expiry_time": "2019-02-04 14:00:00 -0500",
+  "snaplock_expiry_time": "2019-02-04 19:00:00 +0000",
   "snapmirror_label": "string",
   "state": "string",
   "svm": {

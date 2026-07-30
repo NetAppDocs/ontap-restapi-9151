@@ -87,7 +87,7 @@ a|Specifies the number of seconds until the expiration time of the file.
 ====
 [source,json,subs=+macros]
 {
-  "expiry_time": "2058-06-04 15:00:00 -0400",
+  "expiry_time": "2058-06-04 19:00:00 +0000",
   "is_expired": 1,
   "retention_period": "P2M",
   "seconds_until_expiry": 168

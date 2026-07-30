@@ -122,7 +122,7 @@ a|SVM, applies only to SVM-scoped objects.
 {
   "access_key": "<AWS-ACCESS-KEY-ID>",
   "comment": "S3 user",
-  "key_expiry_time": "2023-12-31 19:00:00 -0500",
+  "key_expiry_time": "2024-01-01 00:00:00 +0000",
   "key_time_to_live": "PT6H3M",
   "name": "user-1",
   "svm": {
@@ -166,7 +166,7 @@ a|
   "records": [
     {
       "access_key": "<AWS-ACCESS-KEY-ID>",
-      "key_expiry_time": "2023-12-31 19:00:00 -0500",
+      "key_expiry_time": "2024-01-01 00:00:00 +0000",
       "name": "user-1",
       "secret_key": "<AWS-SECRET-ACCESS-KEY>"
     }

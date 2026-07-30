@@ -472,8 +472,8 @@ a|Unique identifier of the SnapMirror relationship.
   "total_transfer_bytes": 1098210312,
   "total_transfer_duration": "PT3M21S",
   "transfer": {
-    "end_time": "2020-12-02 21:36:19 -0500",
-    "last_updated_time": "2023-09-14 18:39:19 -0400",
+    "end_time": "2020-12-03 02:36:19 +0000",
+    "last_updated_time": "2023-09-14 22:39:19 +0000",
     "state": "string",
     "total_duration": "PT28M41S",
     "type": "initialize",

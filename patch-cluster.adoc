@@ -2046,7 +2046,7 @@ a|Controller information
 a|The current or "wall clock" time of the node in ISO-8601 date, time, and time zone format.
 The ISO-8601 date and time are localized based on the ONTAP cluster's timezone setting.
 
-* example: 2019-04-17 11:49:26 -0400
+* example: 2019-04-17 15:49:26 +0000
 * format: date-time
 * readOnly: 1
 * Introduced in: 9.6

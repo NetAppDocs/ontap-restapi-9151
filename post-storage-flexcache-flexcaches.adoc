@@ -209,7 +209,7 @@ a|FlexCache Writeback
         "name": "cluster1",
         "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
       },
-      "create_time": "2018-06-04 15:00:00 -0400",
+      "create_time": "2018-06-04 19:00:00 +0000",
       "ip_address": "10.10.10.7",
       "size": 0,
       "state": "string",

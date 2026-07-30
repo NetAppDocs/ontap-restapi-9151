@@ -284,7 +284,7 @@ a|Version of ONTAP installed and currently active on the system. During PATCH, u
       "action": {
         "message": "string"
       },
-      "end_time": "2019-02-02 14:00:00 -0500",
+      "end_time": "2019-02-02 19:00:00 +0000",
       "issue": {
         "code": 10551399,
         "message": "Image update complete"
@@ -293,7 +293,7 @@ a|Version of ONTAP installed and currently active on the system. During PATCH, u
       "node": {
         "name": "node1"
       },
-      "start_time": "2019-02-02 14:00:00 -0500",
+      "start_time": "2019-02-02 19:00:00 +0000",
       "state": "failed"
     }
   ],

@@ -107,7 +107,7 @@ a|Last policy modification timestamp.
 ====
 [source,json,subs=+macros]
 {
-  "create_time": "2018-01-01 11:00:00 -0500",
+  "create_time": "2018-01-01 16:00:00 +0000",
   "description": "policy #1",
   "member_rules": [
     "r1",
@@ -124,7 +124,7 @@ a|Last policy modification timestamp.
     "name": "svm1",
     "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
   },
-  "update_time": "2018-01-01 11:00:00 -0500"
+  "update_time": "2018-01-01 16:00:00 +0000"
 }
 ====
 

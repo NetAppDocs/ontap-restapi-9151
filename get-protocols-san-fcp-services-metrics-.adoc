@@ -134,7 +134,7 @@ a|The timestamp of the performance data.
     "total": 1000,
     "write": 100
   },
-  "timestamp": "2017-01-25 06:20:13 -0500"
+  "timestamp": "2017-01-25 11:20:13 +0000"
 }
 ====
 

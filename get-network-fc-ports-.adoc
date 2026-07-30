@@ -205,7 +205,7 @@ a|The base world wide port name (WWPN) for the FC port.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "name": "0a",
   "node": {
@@ -240,7 +240,7 @@ a|The base world wide port name (WWPN) for the FC port.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "supported_protocols": [
     "string"

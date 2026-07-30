@@ -537,7 +537,7 @@ a|Validate the volume move or volume conversion operations and their parameters,
             "href": "/api/resourcelink"
           }
         },
-        "time": "2021-06-01 11:06:41 -0400"
+        "time": "2021-06-01 15:06:41 +0000"
       }
     ],
     "dry_run_start_time": "string",
@@ -651,7 +651,7 @@ a|Validate the volume move or volume conversion operations and their parameters,
       }
     }
   ],
-  "create_time": "2018-06-04 15:00:00 -0400",
+  "create_time": "2018-06-04 19:00:00 +0000",
   "efficiency": {
     "application_io_size": "string",
     "auto_state": "string",
@@ -696,7 +696,7 @@ a|Validate the volume move or volume conversion operations and their parameters,
   },
   "encryption": {
     "action": "string",
-    "key_create_time": "2022-01-01 14:00:00 -0500",
+    "key_create_time": "2022-01-01 19:00:00 +0000",
     "key_id": "string",
     "state": "string",
     "status": {
@@ -741,7 +741,7 @@ a|Validate the volume move or volume conversion operations and their parameters,
         "write": 100
       },
       "status": "ok",
-      "timestamp": "2017-01-25 06:20:13 -0500"
+      "timestamp": "2017-01-25 11:20:13 +0000"
     },
     "duration": "PT15S",
     "flexcache": {
@@ -749,7 +749,7 @@ a|Validate the volume move or volume conversion operations and their parameters,
       "cache_miss_percent": 20,
       "duration": "PT1D",
       "status": "ok",
-      "timestamp": "2017-01-25 06:20:13 -0500"
+      "timestamp": "2017-01-25 11:20:13 +0000"
     },
     "iops": {
       "read": 200,
@@ -767,7 +767,7 @@ a|Validate the volume move or volume conversion operations and their parameters,
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "movement": {
     "capacity_tier_optimized": true,
@@ -782,7 +782,7 @@ a|Validate the volume move or volume conversion operations and their parameters,
       "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
     },
     "percent_complete": 0,
-    "start_time": "2020-12-07 03:45:12 -0500",
+    "start_time": "2020-12-07 08:45:12 +0000",
     "state": "replicating",
     "tiering_policy": "string"
   },
@@ -843,9 +843,9 @@ a|Validate the volume move or volume conversion operations and their parameters,
           "code": 0,
           "destination": 0,
           "file_id": 0,
-          "time": "2018-06-04 15:00:00 -0400"
+          "time": "2018-06-04 19:00:00 +0000"
         },
-        "most_recent_start_time": "2018-06-04 15:00:00 -0400"
+        "most_recent_start_time": "2018-06-04 19:00:00 +0000"
       },
       "scanner": {
         "blocks_scanned": 0,
@@ -909,7 +909,7 @@ a|Validate the volume move or volume conversion operations and their parameters,
   "snaplock": {
     "append_mode_enabled": "",
     "autocommit_period": "P30M",
-    "compliance_clock_time": "2018-06-04 15:00:00 -0400",
+    "compliance_clock_time": "2018-06-04 19:00:00 +0000",
     "expiry_time": "Wed Sep  5 11:02:42 GMT 2018",
     "is_audit_log": 1,
     "litigation_count": 10,
@@ -1319,13 +1319,13 @@ a|Validate the volume move or volume conversion operations and their parameters,
         "write": 100
       },
       "status": "ok",
-      "timestamp": "2017-01-25 06:20:13 -0500"
+      "timestamp": "2017-01-25 11:20:13 +0000"
     },
     "flexcache_raw": {
       "cache_miss_blocks": 10,
       "client_requested_blocks": 500,
       "status": "ok",
-      "timestamp": "2017-01-25 06:20:13 -0500"
+      "timestamp": "2017-01-25 11:20:13 +0000"
     },
     "iops_raw": {
       "read": 200,
@@ -1659,7 +1659,7 @@ a|Validate the volume move or volume conversion operations and their parameters,
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "status": [
     "string"

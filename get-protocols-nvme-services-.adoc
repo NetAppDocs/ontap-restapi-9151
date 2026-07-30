@@ -131,7 +131,7 @@ a|SVM, applies only to SVM-scoped objects.
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 06:20:13 -0500"
+      "timestamp": "2017-01-25 11:20:13 +0000"
     },
     "iops": {
       "read": 200,
@@ -167,14 +167,14 @@ a|SVM, applies only to SVM-scoped objects.
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 06:20:13 -0500"
+      "timestamp": "2017-01-25 11:20:13 +0000"
     },
     "throughput": {
       "read": 200,
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "statistics": {
     "fc": {
@@ -194,7 +194,7 @@ a|SVM, applies only to SVM-scoped objects.
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 06:20:13 -0500"
+      "timestamp": "2017-01-25 11:20:13 +0000"
     },
     "iops_raw": {
       "read": 200,
@@ -224,14 +224,14 @@ a|SVM, applies only to SVM-scoped objects.
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 06:20:13 -0500"
+      "timestamp": "2017-01-25 11:20:13 +0000"
     },
     "throughput_raw": {
       "read": 200,
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "svm": {
     "_links": {
