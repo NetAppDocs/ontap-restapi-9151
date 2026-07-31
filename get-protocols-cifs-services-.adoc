@@ -245,7 +245,7 @@ a|The workgroup name.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "name": "CIFS1",
   "netbios": {
@@ -296,7 +296,7 @@ a|The workgroup name.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "svm": {
     "_links": {

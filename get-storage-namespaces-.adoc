@@ -178,7 +178,7 @@ a|The unique identifier of the NVMe namespace.
     }
   },
   "comment": "string",
-  "create_time": "2018-06-04 15:00:00 -0400",
+  "create_time": "2018-06-04 19:00:00 +0000",
   "location": {
     "namespace": "namespace1",
     "node": {
@@ -232,7 +232,7 @@ a|The unique identifier of the NVMe namespace.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "name": "/vol/volume1/qtree1/namespace1",
   "os_type": "string",
@@ -258,7 +258,7 @@ a|The unique identifier of the NVMe namespace.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "status": {
     "container_state": "string",

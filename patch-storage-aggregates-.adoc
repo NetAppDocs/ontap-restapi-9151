@@ -237,13 +237,13 @@ a|Number of volumes in the aggregate.
       }
     ]
   },
-  "create_time": "2018-01-01 11:00:00 -0500",
+  "create_time": "2018-01-01 16:00:00 +0000",
   "home_node": {
     "name": "node1",
     "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
   },
   "inactive_data_reporting": {
-    "start_time": "2019-12-12 11:00:00 -0500"
+    "start_time": "2019-12-12 16:00:00 +0000"
   },
   "inode_attributes": {
     "file_private_capacity": 31136,
@@ -431,13 +431,13 @@ a|List of validation warnings and remediation advice for the aggregate simulate 
           }
         ]
       },
-      "create_time": "2018-01-01 11:00:00 -0500",
+      "create_time": "2018-01-01 16:00:00 +0000",
       "home_node": {
         "name": "node1",
         "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
       },
       "inactive_data_reporting": {
-        "start_time": "2019-12-12 11:00:00 -0500"
+        "start_time": "2019-12-12 16:00:00 +0000"
       },
       "inode_attributes": {
         "file_private_capacity": 31136,

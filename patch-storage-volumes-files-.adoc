@@ -218,7 +218,7 @@ a|
 ====
 [source,json,subs=+macros]
 {
-  "accessed_time": "2019-06-12 11:00:16 -0400",
+  "accessed_time": "2019-06-12 15:00:16 +0000",
   "analytics": {
     "by_accessed_time": {
       "bytes_used": {
@@ -291,12 +291,12 @@ a|
     "subdir_count": 35
   },
   "bytes_used": 4096,
-  "changed_time": "2019-06-12 11:00:16 -0400",
+  "changed_time": "2019-06-12 15:00:16 +0000",
   "constituent": {
     "name": "fg__0001",
     "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
   },
-  "creation_time": "2019-06-12 11:00:16 -0400",
+  "creation_time": "2019-06-12 15:00:16 +0000",
   "group_id": 30,
   "hard_links_count": 1,
   "inode_generation": 214753547,
@@ -305,7 +305,7 @@ a|
   "is_junction": "",
   "is_snapshot": "",
   "is_vm_aligned": "",
-  "modified_time": "2019-06-12 11:00:16 -0400",
+  "modified_time": "2019-06-12 15:00:16 +0000",
   "name": "test_file",
   "owner_id": 54738,
   "path": "d1/d2/d3",

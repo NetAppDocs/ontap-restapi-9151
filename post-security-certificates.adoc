@@ -212,7 +212,7 @@ a|Unique ID that identifies a certificate.
   },
   "ca": "string",
   "common_name": "test.domain.com",
-  "expiry_time": "2030-01-25 06:20:13 -0500",
+  "expiry_time": "2030-01-25 11:20:13 +0000",
   "hash_function": "string",
   "intermediate_certificates": [
     "<CERTIFICATE-CONTENT>"
@@ -298,7 +298,7 @@ a|
       },
       "ca": "string",
       "common_name": "test.domain.com",
-      "expiry_time": "2030-01-25 06:20:13 -0500",
+      "expiry_time": "2030-01-25 11:20:13 +0000",
       "hash_function": "string",
       "intermediate_certificates": [
         "<CERTIFICATE-CONTENT>"

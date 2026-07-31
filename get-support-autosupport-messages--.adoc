@@ -117,7 +117,7 @@ a|Subject line for the AutoSupport
     "code": "53149746",
     "message": "Could not resolve host: test.com"
   },
-  "generated_on": "2019-03-25 17:30:04 -0400",
+  "generated_on": "2019-03-25 21:30:04 +0000",
   "index": 9,
   "node": {
     "_links": {

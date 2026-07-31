@@ -202,7 +202,7 @@ a|
       },
       "additional_info": "MetroCluster switchover with auto heal completed successfully.",
       "command_line": "metrocluster switchover",
-      "end_time": "2016-03-10 17:35:16 -0500",
+      "end_time": "2016-03-10 22:35:16 +0000",
       "errors": [
         "siteB (warning): Unable to prepare the partner cluster for a pending switchback operation. Reason: entry doesn't exist. Reboot the nodes in the partner cluster before using the \"metrocluster switchback\" command."
       ],
@@ -215,7 +215,7 @@ a|
         "name": "node1",
         "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
       },
-      "start_time": "2016-03-10 17:33:16 -0500",
+      "start_time": "2016-03-10 22:33:16 +0000",
       "state": "completed_with_warnings",
       "type": "switchover",
       "uuid": "11111111-2222-3333-4444-abcdefabcdef"

@@ -216,7 +216,7 @@ a|Bridge world wide name
       "code": "4",
       "message": "entry doesn't exist"
     },
-    "time": "2020-12-09 00:47:58 -0500"
+    "time": "2020-12-09 05:47:58 +0000"
   },
   "managed_by": "string",
   "model": "FibreBridge6500N",

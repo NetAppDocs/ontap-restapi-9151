@@ -229,14 +229,14 @@ a|Version of ONTAP installed and currently active on the system. During PATCH, u
         },
         "sp_bmc": {
           "autoupdte": "",
-          "end_time": "2020-05-17 16:00:00 -0400",
+          "end_time": "2020-05-17 20:00:00 +0000",
           "fw_type": "SP",
           "image": "primary",
           "is_current": 1,
           "last_update_state": "passed",
           "percent_done": 100,
           "running_version": "1.2.3.4",
-          "start_time": "2020-05-17 16:00:00 -0400",
+          "start_time": "2020-05-17 20:00:00 +0000",
           "state": "installed"
         }
       },
@@ -268,7 +268,7 @@ a|Version of ONTAP installed and currently active on the system. During PATCH, u
       "action": {
         "message": "string"
       },
-      "end_time": "2019-02-02 14:00:00 -0500",
+      "end_time": "2019-02-02 19:00:00 +0000",
       "issue": {
         "code": 10551399,
         "message": "Image update complete"
@@ -277,7 +277,7 @@ a|Version of ONTAP installed and currently active on the system. During PATCH, u
       "node": {
         "name": "node1"
       },
-      "start_time": "2019-02-02 14:00:00 -0500",
+      "start_time": "2019-02-02 19:00:00 +0000",
       "state": "failed"
     }
   ],

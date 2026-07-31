@@ -243,7 +243,7 @@ a|True for a VIP interface, whose location is announced via BGP.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "name": "dataLif1",
   "probe_port": 64001,
@@ -271,7 +271,7 @@ a|True for a VIP interface, whose location is announced via BGP.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 06:20:13 -0500"
+    "timestamp": "2017-01-25 11:20:13 +0000"
   },
   "subnet": {
     "_links": {
