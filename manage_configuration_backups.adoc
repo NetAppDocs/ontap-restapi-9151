@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_configuration_backups.html'
+keywords: 'configuration backup,cluster backup,node backup,backup retrieval,backup deletion,backup creation'
 summary: 'Manage configuration backups'
 ---
 
 = Manage configuration backups
+:imagesdir: ./media/
 
-
+[.lead]
+Create, delete, and retrieve configuration backup files using these endpoints. Configuration backups can be either 'cluster' or 'node' type, allowing you to manage cluster-wide settings or node-specific configurations. Use this API to generate backups on demand, supplementing automatically created backups.
 
 == Overview
 

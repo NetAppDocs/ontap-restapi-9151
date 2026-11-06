@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_totp_profiles.html'
+keywords: 'manage totp,totp profile,user account totp,totp configuration,totp authentication'
 summary: 'Manage TOTP profiles'
 ---
 
 = Manage TOTP profiles
+:imagesdir: ./media/
 
-
+[.lead]
+Configure TOTP profiles for user accounts using these endpoints. By specifying the owner UUID and account user name, you can manage authentication settings within the SVM associated with the user account.
 
 == Overview
 

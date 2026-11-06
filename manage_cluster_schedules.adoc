@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_schedules.html'
+keywords: 'cluster schedules,job schedule,cron schedule,interval schedule,metrocluster configuration'
 summary: 'Manage cluster schedules'
 ---
 
 = Manage cluster schedules
+:imagesdir: ./media/
 
-
+[.lead]
+Use the /cluster/schedules API to efficiently manage job schedules within a cluster. You can view, create, update, and delete schedules to optimize task execution times and resource allocation. This API supports both cron and interval schedules, providing flexibility for recurring tasks.
 
 == Overview
 

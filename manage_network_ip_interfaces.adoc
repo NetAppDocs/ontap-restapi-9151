@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_network_ip_interfaces.html'
+keywords: 'network management,ip interfaces,cluster scope,svm scope,interface creation'
 summary: 'Manage network IP interfaces'
 ---
 
 = Manage network IP interfaces
+:imagesdir: ./media/
 
-
+[.lead]
+Manage network IP interfaces in your ONTAP cluster using these endpoints for creating, retrieving, updating, and deleting interface instances. Use them to display details of configured interfaces or modify interface settings as needed.
 
 == Overview
 

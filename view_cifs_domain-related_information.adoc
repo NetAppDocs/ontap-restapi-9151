@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_cifs_domain-related_information.html'
+keywords: 'cifs domain,svm information,trust relationships,discovered servers,preferred dcs,password schedule'
 summary: 'View CIFS domain-related information'
 ---
 
 = View CIFS domain-related information
+:imagesdir: ./media/
 
-
+[.lead]
+Access CIFS domain-related information across all SVMs to understand and manage trust relationships, discovered servers, and preferred domain controllers.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_shelves.html'
+keywords: 'storage shelf,netapp storage,retrieve shelves,modify shelf,storage cluster'
 summary: 'Manage shelves'
 ---
 
 = Manage shelves
+:imagesdir: ./media/
 
-
+[.lead]
+Use the storage shelf APIs to retrieve and manage information about all shelves in the cluster. You can utilize these endpoints for inventory checks, status monitoring, and configuration adjustments.
 
 == Retrieving storage shelf information
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-shadow-copies.html'
+keywords: 'shadowcopies,cifs,shadowcopy retrieval,vserver cifs,share name,svm name'
 summary: 'Retrieve shadow copies'
 ---
 
 = Retrieve shadow copies
+:imagesdir: ./media/
+
+[.lead]
+Retrieves shadow copies to view available versions of files or folders that have been backed up. Use this to restore previous states of data when necessary.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/shadow-copies`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves Shadowcopies
 

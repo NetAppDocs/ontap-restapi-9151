@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-audit-messages.html'
+keywords: 'audit log,administrative viewer,filter session,filter user,log messages'
 summary: 'Retrieve the administrative audit log viewer'
 ---
 
 = Retrieve the administrative audit log viewer
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the administrative audit log viewer to access records of administrative actions and events, aiding in monitoring and compliance activities.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/audit/messages`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the administrative audit log viewer.
-
+ONTAP 9.6
 
 == Parameters
 

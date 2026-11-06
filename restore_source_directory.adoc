@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'restore_source_directory.html'
+keywords: 'restore directory,snapshot copy,volume snapshot,active file system,afs inodes'
 summary: 'Restore source directory'
 ---
 
 = Restore source directory
+:imagesdir: ./media/
 
-
+[.lead]
+Use the Restore source directory endpoint to retrieve a directory from a volume Snapshot copy without copying data. This operation preserves the original directory entries while updating the inodes in the Active File System to reflect the same attributes as the source.
 
 == Overview
 

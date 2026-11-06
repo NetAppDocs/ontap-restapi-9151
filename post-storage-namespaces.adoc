@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-namespaces.html'
+keywords: 'nvme namespace,create namespace,svm uuid,volume location,os type,space size'
 summary: 'Create an NVMe namespace'
 ---
 
 = Create an NVMe namespace
+:imagesdir: ./media/
+
+[.lead]
+Creates an NVMe namespace to allocate storage space within a specific volume and SVM. This operation is useful when you need to manage NVMe storage resources efficiently within your ONTAP environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/namespaces`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates an NVMe namespace.
+ONTAP 9.6
 
 == Required properties
 
@@ -182,7 +189,7 @@ a|The unique identifier of the NVMe namespace.
       "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
     }
   },
-  "create_time": "2018-06-04 19:00:00 +0000",
+  "create_time": "2018-06-04 15:00:00 -0400",
   "location": {
     "namespace": "namespace1",
     "node": {
@@ -271,7 +278,7 @@ a|
           "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
         }
       },
-      "create_time": "2018-06-04 19:00:00 +0000",
+      "create_time": "2018-06-04 15:00:00 -0400",
       "location": {
         "namespace": "namespace1",
         "node": {

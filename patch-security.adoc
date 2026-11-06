@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-security.html'
+keywords: 'fips mode,metadata encryption,nae aggregates,security config,software update'
 summary: 'Update the software FIPS mode or enable conversion of non-encrypted metadata volumes non-NAE aggregates'
 ---
 
 = Update the software FIPS mode or enable conversion of non-encrypted metadata volumes non-NAE aggregates
+:imagesdir: ./media/
+
+[.lead]
+Updates the software FIPS mode or enables conversion of non-encrypted metadata volumes and aggregates. Use this endpoint to manage encryption settings for data security compliance.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Updates the software FIPS mode or enables conversion of non-encrypted metadata volumes to encrypted metadata volumes and non-NAE aggregates to NAE aggregates.
 

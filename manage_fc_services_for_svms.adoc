@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fc_services_for_svms.html'
+keywords: 'fibre channel,svm management,fc protocol,performance monitoring,fcp service'
 summary: 'Manage FC services for SVMs'
 ---
 
 = Manage FC services for SVMs
+:imagesdir: ./media/
 
-
+[.lead]
+Manage Fibre Channel Protocol (FC Protocol) services for SVMs to define target properties and control access through protocol initiators. Use these endpoints to create, update, delete, and monitor FC services essential for maintaining connectivity and performance within your ONTAP environment.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_nfs_connected_clients.html'
+keywords: 'nfs clients,connected clients,volume access,nfs protocol,export policy,idle duration'
 summary: 'View NFS connected clients'
 ---
 
 = View NFS connected clients
+:imagesdir: ./media/
 
-
+[.lead]
+Access information on currently connected NFS clients, potential idle clients, and recently unmounted clients through these endpoints. Use them to monitor client connections and manage the cache idle time settings.
 
 == Overview
 

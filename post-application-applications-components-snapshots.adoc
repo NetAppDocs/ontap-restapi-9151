@@ -3,16 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-application-applications-components-snapshots.html'
+keywords: 'snapshot copy,application component,maxdata template,consistency type,component snapshot,application uuid'
 summary: 'Create an application component Snapshot copy'
 ---
 
 = Create an application component Snapshot copy
+:imagesdir: ./media/
+
+[.lead]
+Creates a Snapshot copy of an application component, capturing its current state for granular data protection. Use this operation specifically for Maxdata template applications to ensure consistent backups.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/application/applications/{application.uuid}/components/{component.uuid}/snapshots`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a Snapshot copy of an application component.
+ONTAP 9.6
+
+== Usage notes
 
 This endpoint is only supported for Maxdata template applications.
 

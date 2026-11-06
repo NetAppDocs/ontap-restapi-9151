@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-name-services-nis-.html'
+keywords: 'nis domain,nis server,svm configuration,modify domain,update server'
 summary: 'Update the NIS domain and server configuration for an SVM'
 ---
 
 = Update the NIS domain and server configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Updates the NIS domain and server configuration for an SVM to ensure proper network information service functionality. Use this endpoint to modify domain and server settings while adhering to constraints such as ensuring domains and servers are not empty.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/name-services/nis/{svm.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates NIS domain and server configuration of an SVM.
 

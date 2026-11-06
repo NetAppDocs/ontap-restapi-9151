@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-cifs-shares-.html'
+keywords: 'cifs share update,share modify,cifs properties,cifs share patch,svm uuid,cifs share name'
 summary: 'Update a CIFS share'
 ---
 
 = Update a CIFS share
+:imagesdir: ./media/
+
+[.lead]
+Updates a CIFS share to change its properties or configuration settings, ensuring it aligns with your specific access and security requirements.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/cifs/shares/{svm.uuid}/{name}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates a CIFS share.
+ONTAP 9.6
 
 == Related ONTAP commands
 

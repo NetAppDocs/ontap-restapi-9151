@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-snapshot-policies.html'
+keywords: 'snapshot policy,create snapshot copy,svm specification,snapshot schedule,snapmirror label'
 summary: 'Create a Snapshot copy policy'
 ---
 
 = Create a Snapshot copy policy
+:imagesdir: ./media/
+
+[.lead]
+Creates a Snapshot copy policy to define how and when Snapshot copies are taken on your storage volumes. Use this endpoint to specify the schedule, retention, and naming conventions for your Snapshot copies, tailoring them to your data protection needs.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/snapshot-policies`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a Snapshot copy policy.
+ONTAP 9.6
 
 == Required properties
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-local-users.html'
+keywords: 'local users,cifs protocol,svm users,user membership,local groups'
 summary: 'Retrieve local users for all SVMs'
 ---
 
 = Retrieve local users for all SVMs
+:imagesdir: ./media/
+
+[.lead]
+Retrieves local users for all SVMs, along with their associated local groups. This information is useful for managing SVM user memberships and permissions.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/local-users`#
 
-*Introduced In:* 9.9
+== Introduced in
+
+ONTAP 9.9
+
+== Usage notes
 
 Retrieves local users for all of the SVMs. Local groups to which this user belongs to are also displayed.
 

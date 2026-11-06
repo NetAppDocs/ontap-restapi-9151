@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ndmp_node_configurations.html'
+keywords: 'ndmp node, node configurations, plaintext authentication, ndmp scope, manage configurations'
 summary: 'Manage NDMP node configurations'
 ---
 
 = Manage NDMP node configurations
+:imagesdir: ./media/
 
-
+[.lead]
+Manage NDMP node configurations using this API to control authentication types and update node settings. This is useful for configuring plaintext authentication options within your NDMP node scope.
 
 You can use this API to manage node configurations. The authentication types "plaintext" and "plaintext_sso" are used to show that the password uses clear text. Also, they contain no differences for NDMP node scope.
 

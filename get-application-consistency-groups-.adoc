@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-application-consistency-groups-.html'
+keywords: 'consistency group,retrieve consistency,uuid identifier,volumes luns,namespaces map'
 summary: 'Retrieve a consistency group'
 ---
 
 = Retrieve a consistency group
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a consistency group to access its configuration and status details within your storage environment. Use this operation when you need to examine the properties and associations of a specific consistency group.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups/{uuid}`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves a single consistency group.
 
@@ -2853,7 +2864,7 @@ The total number of volumes across all child consistency groups contained in a c
       "luns": [
         {
           "comment": "string",
-          "create_time": "2018-06-04 19:00:00 +0000",
+          "create_time": "2018-06-04 15:00:00 -0400",
           "lun_maps": [
             {
               "igroup": {
@@ -2911,7 +2922,7 @@ The total number of volumes across all child consistency groups contained in a c
       "namespaces": [
         {
           "comment": "string",
-          "create_time": "2018-06-04 19:00:00 +0000",
+          "create_time": "2018-06-04 15:00:00 -0400",
           "name": "/vol/volume1/qtree1/namespace1",
           "os_type": "string",
           "space": {
@@ -3001,6 +3012,9 @@ The total number of volumes across all child consistency groups contained in a c
         "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
       },
       "tiering": {
+        "object_stores": [
+          {}
+        ],
         "policy": "string"
       },
       "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",
@@ -3115,6 +3129,9 @@ The total number of volumes across all child consistency groups contained in a c
             "used": 0
           },
           "tiering": {
+            "object_stores": [
+              {}
+            ],
             "policy": "string"
           },
           "uuid": "028baa66-41bd-11e9-81d5-00a0986138f7"
@@ -3125,7 +3142,7 @@ The total number of volumes across all child consistency groups contained in a c
   "luns": [
     {
       "comment": "string",
-      "create_time": "2018-06-04 19:00:00 +0000",
+      "create_time": "2018-06-04 15:00:00 -0400",
       "lun_maps": [
         {
           "igroup": {
@@ -3204,14 +3221,14 @@ The total number of volumes across all child consistency groups contained in a c
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000",
+    "timestamp": "2017-01-25 06:20:13 -0500",
     "used_space": 4096
   },
   "name": "string",
   "namespaces": [
     {
       "comment": "string",
-      "create_time": "2018-06-04 19:00:00 +0000",
+      "create_time": "2018-06-04 15:00:00 -0400",
       "name": "/vol/volume1/qtree1/namespace1",
       "os_type": "string",
       "space": {
@@ -3320,7 +3337,7 @@ The total number of volumes across all child consistency groups contained in a c
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000",
+    "timestamp": "2017-01-25 06:20:13 -0500",
     "used_space": 4096
   },
   "svm": {
@@ -3333,6 +3350,9 @@ The total number of volumes across all child consistency groups contained in a c
     "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
   },
   "tiering": {
+    "object_stores": [
+      {}
+    ],
     "policy": "string"
   },
   "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",
@@ -3447,6 +3467,9 @@ The total number of volumes across all child consistency groups contained in a c
         "used": 0
       },
       "tiering": {
+        "object_stores": [
+          {}
+        ],
         "policy": "string"
       },
       "uuid": "028baa66-41bd-11e9-81d5-00a0986138f7"

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_snapshot_copy_policies_and_schedules.html'
+keywords: 'snapshot copy,copy policies,snapshot schedules,retention count,snaplock expiry'
 summary: 'Manage Snapshot copy policies and schedules'
 ---
 
 = Manage Snapshot copy policies and schedules
+:imagesdir: ./media/
 
-
+[.lead]
+Explore the APIs that manage Snapshot copy policy schedules, essential for automating Snapshot copy creation based on predefined intervals. Use these endpoints to add, modify, or delete schedules, ensuring that your storage objects are backed up regularly and efficiently.
 
 == Overview
 

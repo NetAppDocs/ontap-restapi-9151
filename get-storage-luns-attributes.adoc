@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-luns-attributes.html'
+keywords: 'lun attributes,retrieve lun,storage luns,lun uuid,storage attributes'
 summary: 'Retrieve LUN attributes'
 ---
 
 = Retrieve LUN attributes
+:imagesdir: ./media/
+
+[.lead]
+Retrieves LUN attributes to gain detailed information about the logical unit numbers in your storage environment. This helps you monitor and manage your storage resources effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/luns/{lun.uuid}/attributes`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves LUN attributes.
+ONTAP 9.10
 
 == Learn more
 

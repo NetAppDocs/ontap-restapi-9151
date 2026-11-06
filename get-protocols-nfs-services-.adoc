@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nfs-services-.html'
+keywords: 'nfs configuration,nfs services,svm nfs,nfs status,svm uuid'
 summary: 'Retrieve NFS configuration for an SVM'
 ---
 
 = Retrieve NFS configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the NFS configuration for a storage virtual machine (SVM) to understand its current network file system settings.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/services/{svm.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the NFS configuration of an SVM.
 
@@ -224,7 +235,7 @@ a|
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 11:20:13 +0000"
+      "timestamp": "2017-01-25 06:20:13 -0500"
     },
     "v4": {
       "_links": {
@@ -249,7 +260,7 @@ a|
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 11:20:13 +0000"
+      "timestamp": "2017-01-25 06:20:13 -0500"
     },
     "v41": {
       "_links": {
@@ -274,7 +285,7 @@ a|
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 11:20:13 +0000"
+      "timestamp": "2017-01-25 06:20:13 -0500"
     }
   },
   "protocol": {
@@ -318,7 +329,7 @@ a|
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 11:20:13 +0000"
+      "timestamp": "2017-01-25 06:20:13 -0500"
     },
     "v4": {
       "iops_raw": {
@@ -337,7 +348,7 @@ a|
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 11:20:13 +0000"
+      "timestamp": "2017-01-25 06:20:13 -0500"
     },
     "v41": {
       "iops_raw": {
@@ -356,7 +367,7 @@ a|
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 11:20:13 +0000"
+      "timestamp": "2017-01-25 06:20:13 -0500"
     }
   },
   "svm": {

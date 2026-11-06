@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nvme-subsystems.html'
+keywords: 'nvme subsystems,retrieve nvme,nvme protocols,subsystem maps,nvme vserver commands'
 summary: 'Retrieve NVMe subsystems'
 ---
 
 = Retrieve NVMe subsystems
+:imagesdir: ./media/
+
+[.lead]
+Accesses NVMe subsystems to view their configurations and statuses, which is essential for managing NVMe resources effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nvme/subsystems`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves NVMe subsystems.
 

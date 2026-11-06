@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster.html'
+keywords: 'cluster configuration,cluster retrieval,cluster fields,cluster info,ontap cluster'
 summary: 'Retrieve the cluster configuration'
 ---
 
 = Retrieve the cluster configuration
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the cluster configuration to understand and manage the current setup of your ONTAP environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the cluster configuration.
-
+ONTAP 9.6
 
 == Parameters
 
@@ -224,7 +230,7 @@ a|This returns the cluster version information.  When the cluster has more than 
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000"
+    "timestamp": "2017-01-25 06:20:13 -0500"
   },
   "name": "cluster1",
   "name_servers": [
@@ -256,7 +262,7 @@ a|This returns the cluster version information.  When the cluster has more than 
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000"
+    "timestamp": "2017-01-25 06:20:13 -0500"
   },
   "timezone": {
     "name": "America/New_York"
@@ -2185,7 +2191,7 @@ a|Controller information
 a|The current or "wall clock" time of the node in ISO-8601 date, time, and time zone format.
 The ISO-8601 date and time are localized based on the ONTAP cluster's timezone setting.
 
-* example: 2019-04-17 15:49:26 +0000
+* example: 2019-04-17 11:49:26 -0400
 * format: date-time
 * readOnly: 1
 * Introduced in: 9.6

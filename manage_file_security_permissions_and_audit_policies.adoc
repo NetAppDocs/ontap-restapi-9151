@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_file_security_permissions_and_audit_policies.html'
+keywords: 'file permissions, ntfs security, audit policies, access control, storage-level access guard, security descriptors'
 summary: 'Manage file security permissions and audit policies'
 ---
 
 = Manage file security permissions and audit policies
+:imagesdir: ./media/
 
-
+[.lead]
+Manage NTFS file security permissions and audit policies directly through the API without a client. Simplify the process by creating and applying security descriptors with access control entries in a single step. Beginning with ONTAP 9.10.1, configure Storage-Level Access Guard (SLAG) ACLs for storage-level security on volumes or qtrees.
 
 == Overview
 

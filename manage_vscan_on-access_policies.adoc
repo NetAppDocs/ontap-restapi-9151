@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_vscan_on-access_policies.html'
+keywords: 'vscan policies,vscan scanning,smb file scanning,on-access configuration,vscan file operations'
 summary: 'Manage Vscan On-Access policies'
 ---
 
 = Manage Vscan On-Access policies
+:imagesdir: ./media/
 
-
+[.lead]
+Use the Vscan On-Access policies to configure and manage the scanning of file objects for viruses during SMB file access. These endpoints enable you to define which file operations trigger scans and to control the scope and status of the On-Access scanning within your environment.
 
 == Overview
 

@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-bridges.html'
+keywords: 'bridge collection,retrieve bridges,data rate,storage bridges,temperature sensor'
 summary: 'Retrieve a collection of bridges'
 ---
 
 = Retrieve a collection of bridges
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a collection of bridges to view their configurations and statuses, which is useful for managing and monitoring bridge connections in your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/bridges`#
 
-*Introduced In:* 9.9
+== Introduced in
 
-Retrieves a collection of bridges.
+ONTAP 9.9
 
 == Related ONTAP commands
 
@@ -670,7 +677,7 @@ a|
           "code": "4",
           "message": "entry doesn't exist"
         },
-        "time": "2020-12-09 05:47:58 +0000"
+        "time": "2020-12-09 00:47:58 -0500"
       },
       "managed_by": "string",
       "model": "FibreBridge6500N",

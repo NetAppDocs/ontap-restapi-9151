@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-local-groups.html'
+keywords: 'local groups,cifs local groups,svm local groups,ontap local groups,group members,cifs group members'
 summary: 'Retrieve local groups for all SVMs'
 ---
 
 = Retrieve local groups for all SVMs
+:imagesdir: ./media/
+
+[.lead]
+Retrieves local groups for all SVMs, accessing the group configurations for CIFS protocol management.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/local-groups`#
 
-*Introduced In:* 9.9
+== Introduced in
+
+ONTAP 9.9
+
+== Usage notes
 
 Retrieves the local groups for all of the SVMs.
 

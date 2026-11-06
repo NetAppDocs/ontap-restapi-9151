@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ethernet_switches.html'
+keywords: 'ethernet switches,cluster networks,storage networks,snmp configuration,cisco nexus'
 summary: 'Manage Ethernet switches'
 ---
 
 = Manage Ethernet switches
+:imagesdir: ./media/
 
-
+[.lead]
+Explore Ethernet switch management endpoints to retrieve, configure, add, and remove switch information for cluster and storage networks. Use these endpoints to monitor switch status and manage configurations efficiently.
 
 == Overview
 

@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-group-policies-central-access-policies-.html'
+keywords: 'cifs group-policies,central access policy,svm uuid,group policy access,access policy retrieval'
 summary: 'Retrieve an applied central access policy for an SVM'
 ---
 
 = Retrieve an applied central access policy for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the applied central access policy for a specified SVM to review its current configuration.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/group-policies/{svm.uuid}/central-access-policies/{name}`#
 
-*Introduced In:* 9.12
+== Introduced in
 
-Retrieves applied central access policy for specified SVM.
+ONTAP 9.12
 
 == Related ONTAP commands
 
@@ -107,7 +114,7 @@ a|Last policy modification timestamp.
 ====
 [source,json,subs=+macros]
 {
-  "create_time": "2018-01-01 16:00:00 +0000",
+  "create_time": "2018-01-01 11:00:00 -0500",
   "description": "policy #1",
   "member_rules": [
     "r1",
@@ -124,7 +131,7 @@ a|Last policy modification timestamp.
     "name": "svm1",
     "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
   },
-  "update_time": "2018-01-01 16:00:00 +0000"
+  "update_time": "2018-01-01 11:00:00 -0500"
 }
 ====
 

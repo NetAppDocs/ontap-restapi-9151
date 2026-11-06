@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-active-directory-.html'
+keywords: 'active directory,account modification,svm uuid,vserver modify,task status,active directory patch'
 summary: 'Modify an Active Directory account for an SVM'
 ---
 
 = Modify an Active Directory account for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Updates the Active Directory account for a specific SVM, which may be necessary to change account settings or credentials. This operation is asynchronous, and you can track progress through the provided Task UUID and Link.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/active-directory/{svm.uuid}`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Modifies the Active Directory account for a given SVM.
 
@@ -109,6 +120,9 @@ a|Administrator username required for Active Directory account creation, modific
   "force_account_overwrite": "",
   "fqdn": "server1.com",
   "password": "testpwd",
+  "preferred_dcs": [
+    {}
+  ],
   "username": "admin"
 }
 ====
@@ -183,6 +197,9 @@ a|Administrator username required for Active Directory account creation, modific
   "force_account_overwrite": "",
   "fqdn": "server1.com",
   "password": "testpwd",
+  "preferred_dcs": [
+    {}
+  ],
   "username": "admin"
 }
 ====

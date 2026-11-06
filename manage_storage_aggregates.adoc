@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_aggregates.html'
+keywords: 'manage storage,storage aggregates,cloud storage,tiering threshold,raid type'
 summary: 'Manage storage aggregates'
 ---
 
 = Manage storage aggregates
+:imagesdir: ./media/
 
-
+[.lead]
+Modify storage aggregate properties using PATCH operations. These endpoints enable adjustments to RAID configurations, disk counts, encryption settings, and more, facilitating tailored storage management. When simulating or implementing automatic aggregate creation, certain operations are restricted to ensure system stability.
 
 == Updating storage aggregates
 

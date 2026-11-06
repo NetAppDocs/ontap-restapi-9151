@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_security-related_accounts.html'
+keywords: 'security accounts, user management, cluster level, svm level, rbac role'
 summary: 'Manage security-related accounts'
 ---
 
 = Manage security-related accounts
+:imagesdir: ./media/
 
-
+[.lead]
+Create, modify, and manage security-related user accounts to control access within your ONTAP environment. These endpoints support operations at both the cluster and SVM levels, allowing configuration of custom privileges and authentication methods tailored to your needs.
 
 == Overview
 

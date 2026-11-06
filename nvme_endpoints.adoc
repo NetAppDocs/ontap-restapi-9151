@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'nvme_endpoints.html'
+keywords: 'nvme provisioning,nvme configuration,fibre channel logins,nvme interfaces,nvme subsystems,nvme namespaces'
 summary: 'ONTAP REST API NVMe endpoints'
 ---
 
 = ONTAP REST API NVMe endpoints
+:imagesdir: ./media/
 
-
+[.lead]
+Configure, provision, and manage NVMe-related objects using these REST API endpoints to support storage operations involving NVMe and NVMe over Fabrics protocols. Utilize these endpoints to implement NVMe services, subsystem configurations, and namespace access control for connected hosts.
 
 == Overview
 

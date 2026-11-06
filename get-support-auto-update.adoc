@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-support-auto-update.html'
+keywords: 'auto update,status,eula,end user license agreement,feature status,license agreement'
 summary: 'Retrieve the current status of an automatic update feature'
 ---
 
 = Retrieve the current status of an automatic update feature
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the current status of the automatic update feature and the End User License Agreement (EULA) to understand the update settings and agreement status.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/auto-update`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves the current status of the automatic update feature and the End User License Agreement (EULA).
-
+ONTAP 9.10
 
 == Parameters
 
@@ -79,7 +85,7 @@ a|
   "eula": {
     "accepted": 1,
     "accepted_ip_address": "192.168.1.125",
-    "accepted_timestamp": "2020-12-01 13:12:23 +0000",
+    "accepted_timestamp": "2020-12-01 08:12:23 -0500",
     "user_id_accepted": "admin"
   }
 }

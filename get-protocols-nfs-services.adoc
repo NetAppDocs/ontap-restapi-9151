@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nfs-services.html'
+keywords: 'nfs configuration,retrieves svm,nfs services,svm nfs,protocols nfs'
 summary: 'Retrieve the NFS configuration for SVMs'
 ---
 
 = Retrieve the NFS configuration for SVMs
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the NFS configuration for storage virtual machines (SVMs) to understand and manage their network file system settings. This information can be crucial for configuring and optimizing storage access and permissions within your environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/services`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the NFS configuration of SVMs.
 
@@ -1647,7 +1658,7 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         },
         "v4": {
           "_links": {
@@ -1672,7 +1683,7 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         },
         "v41": {
           "_links": {
@@ -1697,7 +1708,7 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         }
       },
       "protocol": {
@@ -1741,7 +1752,7 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         },
         "v4": {
           "iops_raw": {
@@ -1760,7 +1771,7 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         },
         "v41": {
           "iops_raw": {
@@ -1779,7 +1790,7 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         }
       },
       "svm": {

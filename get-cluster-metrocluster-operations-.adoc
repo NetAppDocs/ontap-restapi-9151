@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-metrocluster-operations-.html'
+keywords: 'metrocluster,metrocluster operation,operation details,metrocluster uuid,operation retrieval'
 summary: 'Retrieve information about a MetroCluster operation'
 ---
 
 = Retrieve information about a MetroCluster operation
+:imagesdir: ./media/
+
+[.lead]
+Accesses details about a specific MetroCluster operation to understand its current status or outcome. This helps in monitoring and managing MetroCluster operations effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/metrocluster/operations/{uuid}`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Retrieves information about a specific MetroCluster operation.
 
@@ -122,7 +133,7 @@ a|Identifier for the operation.
   },
   "additional_info": "MetroCluster switchover with auto heal completed successfully.",
   "command_line": "metrocluster switchover",
-  "end_time": "2016-03-10 22:35:16 +0000",
+  "end_time": "2016-03-10 17:35:16 -0500",
   "errors": [
     "siteB (warning): Unable to prepare the partner cluster for a pending switchback operation. Reason: entry doesn't exist. Reboot the nodes in the partner cluster before using the \"metrocluster switchback\" command."
   ],
@@ -135,7 +146,7 @@ a|Identifier for the operation.
     "name": "node1",
     "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
   },
-  "start_time": "2016-03-10 22:33:16 +0000",
+  "start_time": "2016-03-10 17:33:16 -0500",
   "state": "completed_with_warnings",
   "type": "switchover",
   "uuid": "11111111-2222-3333-4444-abcdefabcdef"

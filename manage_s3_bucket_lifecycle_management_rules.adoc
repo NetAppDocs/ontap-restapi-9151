@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_s3_bucket_lifecycle_management_rules.html'
+keywords: 's3 bucket lifecycle,object expiration,abort multipart upload,object filter,size greater than'
 summary: 'Manage S3 bucket lifecycle management rules'
 ---
 
 = Manage S3 bucket lifecycle management rules
+:imagesdir: ./media/
 
-
+[.lead]
+Manage lifecycle management rules for S3 buckets by defining actions to be performed on objects within the bucket. Use these endpoints to add, update, or delete rules, optimizing object handling based on specific criteria such as age or size.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_duo_groups.html'
+keywords: 'duo authentication,duo groups,specific svm,group configuration,create duo group,retrieve duo groups'
 summary: 'View and create Duo groups'
 ---
 
 = View and create Duo groups
+:imagesdir: ./media/
 
-
+[.lead]
+Configure and manage Duo groups for authentication within your ONTAP environment. Use these endpoints to create new groups or retrieve existing ones associated with specific clusters or Storage Virtual Machines (SVMs).
 
 == Overview
 

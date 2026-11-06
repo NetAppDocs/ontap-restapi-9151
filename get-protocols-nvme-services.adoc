@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nvme-services.html'
+keywords: 'nvme services,retrieves nvme,vserver nvme,metric latency,metric throughput'
 summary: 'Retrieve NVMe services'
 ---
 
 = Retrieve NVMe services
+:imagesdir: ./media/
+
+[.lead]
+Retrieves NVMe services to access the current configurations and operations available for NVMe protocols. Use this information to review or manage NVMe services in your environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nvme/services`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves NVMe services.
+ONTAP 9.6
 
 == Expensive properties
 
@@ -913,7 +920,7 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         },
         "iops": {
           "read": 200,
@@ -949,14 +956,14 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         },
         "throughput": {
           "read": 200,
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 11:20:13 +0000"
+        "timestamp": "2017-01-25 06:20:13 -0500"
       },
       "statistics": {
         "fc": {
@@ -976,7 +983,7 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         },
         "iops_raw": {
           "read": 200,
@@ -1006,14 +1013,14 @@ a|
             "total": 1000,
             "write": 100
           },
-          "timestamp": "2017-01-25 11:20:13 +0000"
+          "timestamp": "2017-01-25 06:20:13 -0500"
         },
         "throughput_raw": {
           "read": 200,
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 11:20:13 +0000"
+        "timestamp": "2017-01-25 06:20:13 -0500"
       },
       "svm": {
         "_links": {

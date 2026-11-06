@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-qos-policies.html'
+keywords: 'qos policies,retrieve qos,storage policies,min throughput,max throughput,policy class'
 summary: 'Retrieve QoS policies'
 ---
 
 = Retrieve QoS policies
+:imagesdir: ./media/
+
+[.lead]
+Views a collection of QoS policies to assess and manage the quality of service configurations for your storage resources.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/qos/policies`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of QoS policies.
 

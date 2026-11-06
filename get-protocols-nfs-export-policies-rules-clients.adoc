@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nfs-export-policies-rules-clients.html'
+keywords: 'export policy,rule clients,nfs protocols,export rules,policy rules'
 summary: 'Retrieve export policy rule clients'
 ---
 
 = Retrieve export policy rule clients
+:imagesdir: ./media/
+
+[.lead]
+Retrieves export policy rule clients to view the list of clients associated with a specific export policy rule, which helps in managing and auditing access permissions.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/export-policies/{policy.id}/rules/{index}/clients`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves export policy rule clients.
+ONTAP 9.6
 
 == Learn more
 

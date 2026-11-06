@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_local_groups.html'
+keywords: 'cifs server,local group,share access,file access,directory access'
 summary: 'Manage local groups'
 ---
 
 = Manage local groups
+:imagesdir: ./media/
 
-
+[.lead]
+Utilize local group endpoints to manage authorization settings on CIFS servers for share, file, and directory access. Display or modify local group configurations within your data SVMs as needed.
 
 == Overview
 

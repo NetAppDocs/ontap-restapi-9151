@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_active_directory_accounts.html'
+keywords: 'active directory,account management,svm details,organizational unit,create account'
 summary: 'Manage Active Directory accounts'
 ---
 
 = Manage Active Directory accounts
+:imagesdir: ./media/
 
-
+[.lead]
+Use these endpoints to manage Active Directory accounts across all SVMs. Display account-related information or create new accounts as needed for your configuration.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_the_ems_event_catalog.html'
+keywords: 'ems catalog,ems event,ontap event,ems messages,event correction'
 summary: 'Manage the EMS event catalog'
 ---
 
 = Manage the EMS event catalog
+:imagesdir: ./media/
 
-
+[.lead]
+Access the EMS event catalog to retrieve detailed information about system-supported events, including descriptions, reasons for occurrences, and corrective actions. Use these endpoints to monitor and address event-related issues efficiently.
 
 == Overview
 

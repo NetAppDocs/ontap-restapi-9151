@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-cifs-shadowcopy-sets-.html'
+keywords: 'cifs shadowcopy,shadowcopy set,update shadowcopy,storage shadowcopy,shadowcopy uuid'
 summary: 'Update a shadow copy set'
 ---
 
 = Update a shadow copy set
+:imagesdir: ./media/
+
+[.lead]
+Updates a shadow copy set to modify its properties or configuration based on your requirements. This operation is typically used when adjustments to existing shadow copies are needed to align with changes in data protection or recovery strategies.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/cifs/shadowcopy-sets/{uuid}`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Updates a Shadowcopy set
 

@@ -3,16 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-san-vvol-bindings.html'
+keywords: 'vvol binding,lun binding,vvol creation,svm binding,protocol endpoint'
 summary: 'Create a vVol binding'
 ---
 
 = Create a vVol binding
+:imagesdir: ./media/
+
+[.lead]
+Creates a vVol binding to establish a reference-counted connection between two specific LUNs. This operation increments the binding count if the binding already exists, letting you manage multiple connections efficiently.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/san/vvol-bindings`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Creates a vVol binding. The binding between any two specific LUNs is reference counted. When a binding is created that already exists, the binding count is incremented.
+ONTAP 9.10
+
+== Usage notes
+
+The binding between any two specific LUNs is reference counted. When a binding is created that already exists, the binding count is incremented.
 
 == Required properties
 

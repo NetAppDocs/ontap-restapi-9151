@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cloud-targets.html'
+keywords: 'cloud targets,storage aggregate,object store,read latency,ssl enabled,snapmirror use'
 summary: 'Retrieve cloud targets in the cluster'
 ---
 
 = Retrieve cloud targets in the cluster
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the collection of cloud targets in the cluster to manage and monitor your cloud storage configurations.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cloud/targets`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the collection of cloud targets in the cluster.
+ONTAP 9.6
 
 == Related ONTAP commands
 

@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-volume-efficiency-policies.html'
+keywords: 'volume efficiency policy,svm creation,type schedule,duration session,qos policy'
 summary: 'Create a volume efficiency policy'
 ---
 
 = Create a volume efficiency policy
+:imagesdir: ./media/
+
+[.lead]
+Creates a volume efficiency policy to define how storage resources optimize space usage through data deduplication and compression. Use this endpoint to specify parameters such as schedule and type, tailoring the policy to meet your storage efficiency needs.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/volume-efficiency-policies`#
 
-*Introduced In:* 9.8
+== Introduced in
 
-Creates a volume efficiency policy.
+ONTAP 9.8
 
 == Required properties
 

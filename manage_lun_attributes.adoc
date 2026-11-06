@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_lun_attributes.html'
+keywords: 'lun attributes,manage lun,ontap storage,metadata persistence,modify attribute'
 summary: 'Manage LUN attributes'
 ---
 
 = Manage LUN attributes
+:imagesdir: ./media/
 
-
+[.lead]
+The LUN attributes REST API lets you manage caller-defined name/value pairs associated with a LUN. Use these endpoints to create, update, delete, and discover attributes, storing small amounts of application-specific metadata without ONTAP interpreting them.
 
 == Overview
 

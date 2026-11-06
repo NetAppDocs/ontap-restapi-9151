@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-audit.html'
+keywords: 'audit configuration,svm namespace,audit logs,log retention,log rotation'
 summary: 'Create an audit configuration'
 ---
 
 = Create an audit configuration
+:imagesdir: ./media/
+
+[.lead]
+Creates an audit configuration to specify how audit logs are stored and managed within a Storage Virtual Machine (SVM). This is useful for maintaining detailed records of system activities and ensuring compliance with security policies.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/audit`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates an audit configuration.
+ONTAP 9.6
 
 == Required properties
 

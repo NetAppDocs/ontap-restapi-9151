@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-authentication-cluster-oauth2-clients.html'
+keywords: 'oauth configuration,oauth client,cluster oauth,security configuration,oauth create,oauth issuer'
 summary: 'Create the OAuth 2.0 configuration'
 ---
 
 = Create the OAuth 2.0 configuration
+:imagesdir: ./media/
+
+[.lead]
+Configures OAuth 2.0 settings to manage authentication and authorization for applications accessing your system. This setup is essential for integrating secure access protocols in your environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/authentication/cluster/oauth2/clients`#
 
-*Introduced In:* 9.14
+== Introduced in
+
+ONTAP 9.14
+
+== Usage notes
 
 Creates the OAuth 2.0 configuration.
 

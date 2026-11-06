@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-volumes-snapshots.html'
+keywords: 'volume snapshots,reclaimable space,snapshot copies,snapshot reclaimable,snapshot delta'
 summary: 'Retrieve volume Snapshot copies'
 ---
 
 = Retrieve volume Snapshot copies
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a collection of Snapshot copies for a specific volume, offering insight into the volume's historical data states.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/volumes/{volume.uuid}/snapshots`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of volume Snapshot copies.
 
@@ -340,7 +351,7 @@ a|
         }
       },
       "comment": "string",
-      "create_time": "2019-02-04 19:00:00 +0000",
+      "create_time": "2019-02-04 14:00:00 -0500",
       "delta": {
         "_links": {
           "self": {
@@ -350,7 +361,7 @@ a|
         "size_consumed": 0,
         "time_elapsed": "string"
       },
-      "expiry_time": "2019-02-04 19:00:00 +0000",
+      "expiry_time": "2019-02-04 14:00:00 -0500",
       "logical_size": 1228800,
       "name": "this_snapshot",
       "owners": [
@@ -362,10 +373,10 @@ a|
       "size": "122880",
       "snaplock": {
         "expired": 1,
-        "expiry_time": "2019-02-04 19:00:00 +0000",
+        "expiry_time": "2019-02-04 14:00:00 -0500",
         "time_until_expiry": "PT3H27M45S"
       },
-      "snaplock_expiry_time": "2019-02-04 19:00:00 +0000",
+      "snaplock_expiry_time": "2019-02-04 14:00:00 -0500",
       "snapmirror_label": "string",
       "state": "string",
       "svm": {

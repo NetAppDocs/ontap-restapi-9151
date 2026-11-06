@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-authentication-cluster-saml-sp.html'
+keywords: 'saml configuration,service provider,retrieve saml,cluster authentication,idp uri,certificate common name'
 summary: 'Retrieve an SAML service provider configuration'
 ---
 
 = Retrieve an SAML service provider configuration
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a SAML service provider configuration to view the current settings for identity management and authentication integration.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/authentication/cluster/saml-sp`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves a SAML service provider configuration.
-
+ONTAP 9.6
 
 == Parameters
 

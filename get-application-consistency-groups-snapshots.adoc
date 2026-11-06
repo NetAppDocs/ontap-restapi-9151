@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-application-consistency-groups-snapshots.html'
+keywords: 'consistency group,snapshot copies,retrieve snapshots,consistency type,write fence,snapmirror label'
 summary: 'Retrieve consistency group Snapshot copies'
 ---
 
 = Retrieve consistency group Snapshot copies
+:imagesdir: ./media/
+
+[.lead]
+Retrieves Snapshot copies associated with a consistency group, offering insight into the group's current state and data protection capabilities.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups/{consistency_group.uuid}/snapshots`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves Snapshot copies for a consistency group.
 
@@ -273,7 +284,7 @@ a|
         "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
       },
       "consistency_type": "crash",
-      "create_time": "2020-10-25 11:20:00 +0000",
+      "create_time": "2020-10-25 07:20:00 -0400",
       "is_partial": "",
       "missing_volumes": [
         {

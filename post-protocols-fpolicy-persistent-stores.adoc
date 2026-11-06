@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-fpolicy-persistent-stores.html'
+keywords: 'fpolicy persistent store,SVM configuration,data SVM,persistent mode,FlexVol volume'
 summary: 'Create an FPolicy persistent store configuration for an SVM'
 ---
 
 = Create an FPolicy persistent store configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Creates an FPolicy persistent store configuration for a specific SVM, setting up storage for FPolicy event notifications. This configuration is useful when you need to manage event notification storage with flexibility in volume selection and sizing.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/fpolicy/{svm.uuid}/persistent-stores`#
 
-*Introduced In:* 9.14
+== Introduced in
+
+ONTAP 9.14
+
+== Usage notes
 
 Creates an FPolicy Persistent Store configuration for a specified SVM.
 

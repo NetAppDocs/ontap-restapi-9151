@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_automatic_update_configuration.html'
+keywords: 'manage updates,automatic package,update configuration,GET PATCH calls,firmware category'
 summary: 'Manage automatic update configuration'
 ---
 
 = Manage automatic update configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Query and update automatic package update configurations using this API. Use GET requests to retrieve the settings or PATCH requests to modify the `action` field for a specific configuration.
 
 == Overview
 

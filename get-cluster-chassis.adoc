@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-chassis.html'
+keywords: 'chassis collection,retrieve chassis,system chassis,frus state,nodes position,shelves uid'
 summary: 'Retrieve a collection of chassis'
 ---
 
 = Retrieve a collection of chassis
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a collection of chassis to review and manage the chassis information within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/chassis`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves a collection of chassis.
+ONTAP 9.6
 
 == Related ONTAP commands
 
@@ -267,6 +274,11 @@ a|
             ]
           },
           "position": "top",
+          "usbs": {
+            "ports": [
+              {}
+            ]
+          },
           "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
         }
       ],

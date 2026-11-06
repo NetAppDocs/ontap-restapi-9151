@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-cluster-licensing-licenses.html'
+keywords: 'feature license,install license,cluster licensing,license keys,system license,license install'
 summary: 'Install one or more feature licenses'
 ---
 
 = Install one or more feature licenses
+:imagesdir: ./media/
+
+[.lead]
+Installs one or more feature licenses to enable additional capabilities on your system. This operation is typically used when you need to activate new features by adding their corresponding license keys.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/cluster/licensing/licenses`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Installs one or more feature licenses.
+ONTAP 9.6
 
 == Required properties
 
@@ -112,12 +119,12 @@ a|Summary state of package based on all installed licenses.
       "compliance": {
         "state": "compliant"
       },
-      "expiry_time": "2019-03-02 19:00:00 +0000",
+      "expiry_time": "2019-03-02 14:00:00 -0500",
       "host_id": "456-44-1234",
       "installed_license": "Core Bundle",
       "owner": "cluster1",
       "serial_number": "123456789",
-      "start_time": "2019-02-02 19:00:00 +0000"
+      "start_time": "2019-02-02 14:00:00 -0500"
     }
   ],
   "name": "NFS",
@@ -176,12 +183,12 @@ a|
           "compliance": {
             "state": "compliant"
           },
-          "expiry_time": "2019-03-02 19:00:00 +0000",
+          "expiry_time": "2019-03-02 14:00:00 -0500",
           "host_id": "456-44-1234",
           "installed_license": "Core Bundle",
           "owner": "cluster1",
           "serial_number": "123456789",
-          "start_time": "2019-02-02 19:00:00 +0000"
+          "start_time": "2019-02-02 14:00:00 -0500"
         }
       ],
       "name": "NFS",

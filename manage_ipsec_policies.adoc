@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ipsec_policies.html'
+keywords: 'ipsec policies,policy creation,policy management,security ipsec,ipsec operations'
 summary: 'Manage IPsec policies'
 ---
 
 = Manage IPsec policies
+:imagesdir: ./media/
 
-
+[.lead]
+Manage IPsec policies to secure and control data transmission across your network. Use these endpoints to retrieve, create, modify, or delete specific IPsec policy configurations.
 
 == Overview
 

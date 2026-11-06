@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-cifs-group-policies-.html'
+keywords: 'cifs group policies,svm uuid,update gpo,background task,force reapply'
 summary: 'Create a background task to update the GPO settings for an SVM'
 ---
 
 = Create a background task to update the GPO settings for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Creates a background task to update the GPO settings for a specified SVM. This operation is useful when you need to ensure that the GPO settings are current without manual intervention.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/cifs/group-policies/{svm.uuid}`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Will create a background task to update the GPO settings for specified SVM.
 

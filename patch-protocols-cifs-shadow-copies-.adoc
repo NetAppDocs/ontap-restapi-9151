@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-cifs-shadow-copies-.html'
+keywords: 'shadowcopy creation,client shadowcopy,restore directory,cifs protocols,shadow copies'
 summary: 'Update a shadow copy'
 ---
 
 = Update a shadow copy
+:imagesdir: ./media/
+
+[.lead]
+Updates a shadow copy by specifying a list of files to include in the shadow copy creation. Use this when you need to manage file versions or recover previous file states.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/cifs/shadow-copies/{client_uuid}`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Specify list Files to be added as a part of Shadowcopy creation
 

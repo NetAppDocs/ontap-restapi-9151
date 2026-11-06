@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-session-files.html'
+keywords: 'cifs sessions,open files,svm information,vserver session,file show,volume name'
 summary: 'Retrieve CIFS open files'
 ---
 
 = Retrieve CIFS open files
+:imagesdir: ./media/
+
+[.lead]
+Retrieves CIFS open files across all SVMs to access information about active CIFS sessions and their associated open files.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/session/files`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves the CIFS sessions Open Files information for all SVMs.
 

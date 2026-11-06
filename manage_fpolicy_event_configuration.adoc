@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fpolicy_event_configuration.html'
+keywords: 'fpolicy event, event configuration, file access monitoring, svm events, protocol filters'
 summary: 'Manage FPolicy event configuration'
 ---
 
 = Manage FPolicy event configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Configure FPolicy event settings to specify which file access operations are monitored on your SVM. You can define event configurations by selecting the protocol, file operations, and filters to manage notifications for file actions. Use these configurations to ensure monitoring of specific operations, including those that fail due to permission issues.
 
 == Overview
 

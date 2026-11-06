@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-aggregates-.html'
+keywords: 'aggregate uuid,storage aggregates,expensive properties,storage footprint,aggregate statistics,space data'
 summary: 'Retrieve an aggregate specified by the UUID'
 ---
 
 = Retrieve an aggregate specified by the UUID
+:imagesdir: ./media/
+
+[.lead]
+Retrieves detailed information about a specific aggregate using its UUID, helping you manage and analyze your storage resources effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/aggregates/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the aggregate specified by the UUID. The recommend query cannot be used for this operation.
 
@@ -291,7 +302,7 @@ a|Number of volumes in the aggregate.
       }
     ]
   },
-  "create_time": "2018-01-01 16:00:00 +0000",
+  "create_time": "2018-01-01 11:00:00 -0500",
   "dr_home_node": {
     "name": "node1",
     "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
@@ -306,7 +317,7 @@ a|Number of volumes in the aggregate.
     "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
   },
   "inactive_data_reporting": {
-    "start_time": "2019-12-12 16:00:00 +0000"
+    "start_time": "2019-12-12 11:00:00 -0500"
   },
   "inode_attributes": {
     "file_private_capacity": 31136,
@@ -344,7 +355,7 @@ a|Number of volumes in the aggregate.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000"
+    "timestamp": "2017-01-25 06:20:13 -0500"
   },
   "name": "node1_aggr_1",
   "node": {
@@ -432,7 +443,7 @@ a|Number of volumes in the aggregate.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000"
+    "timestamp": "2017-01-25 06:20:13 -0500"
   },
   "uuid": "string",
   "volume-count": 0

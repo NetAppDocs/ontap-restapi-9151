@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-vscan-on-access-policies.html'
+keywords: 'vscan policy,vscan access,vscan on-access,on-access policy,file extension filter,scan readonly volumes'
 summary: 'Retrieve a Vscan On-Access policy'
 ---
 
 = Retrieve a Vscan On-Access policy
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the Vscan On-Access policy, which defines how files are scanned for viruses as they are accessed. This is useful for ensuring that files are safe before they are opened or modified.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/vscan/{svm.uuid}/on-access-policies`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the Vscan On-Access policy.
+ONTAP 9.6
 
 == Related ONTAP commands
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'retrieve_files.html'
+keywords: 'i/o activity,performance monitoring,volume tracking,iops metric,throughput analysis'
 summary: 'Retrieve files'
 ---
 
 = Retrieve files
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve a list of files with the highest I/O activity on a specified volume using this API. Filter the results by I/O activity type, such as `iops` or `throughput`, to gain insights into recent file operations. This API is valuable for analyzing performance and identifying files with significant activity within a short timeframe.
 
 == Overview
 

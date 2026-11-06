@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_individual_snmp_traphosts.html'
+keywords: 'snmp traphost,manage traphost,individual traphost,retrieve traphost,delete traphost'
 summary: 'Manage individual SNMP traphosts'
 ---
 
 = Manage individual SNMP traphosts
+:imagesdir: ./media/
 
-
+[.lead]
+Define, retrieve, or delete individual SNMP traphosts to manage specific network monitoring configurations in your cluster. Use these endpoints to customize traphost settings according to your monitoring requirements.
 
 == Overview
 

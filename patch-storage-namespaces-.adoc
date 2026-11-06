@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-storage-namespaces-.html'
+keywords: 'nvme namespace,storage namespaces,update namespace,volume clone,nvme modify'
 summary: 'Update an NVMe namespace'
 ---
 
 = Update an NVMe namespace
+:imagesdir: ./media/
+
+[.lead]
+Updates an NVMe namespace to modify its properties or adjust its configuration according to your storage needs. Use this functionality when you need to change settings for improved performance or resource management.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/storage/namespaces/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates an NVMe namespace.
+ONTAP 9.6
 
 == Related ONTAP commands
 
@@ -123,7 +130,7 @@ a|The unique identifier of the NVMe namespace.
     }
   },
   "comment": "string",
-  "create_time": "2018-06-04 19:00:00 +0000",
+  "create_time": "2018-06-04 15:00:00 -0400",
   "space": {
     "size": 1073741824,
     "used": 0

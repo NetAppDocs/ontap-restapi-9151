@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_duo_groups_configured_for_an_svm_or_cluster.html'
+keywords: 'duo groups,svm configuration,group management,owner uuid,modify group'
 summary: 'Manage Duo groups configured for an SVM or cluster'
 ---
 
 = Manage Duo groups configured for an SVM or cluster
+:imagesdir: ./media/
 
-
+[.lead]
+Configure Duo groups for a storage virtual machine (SVM) or cluster using these endpoints. Specify the owner UUID to identify the SVM containing the Duo groups.
 
 == Overview
 

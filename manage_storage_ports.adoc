@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_ports.html'
+keywords: 'storage ports,storage cluster,port information,storage management,port retrieval'
 summary: 'Manage storage ports'
 ---
 
 = Manage storage ports
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve comprehensive information about all storage ports within the cluster using the storage port GET API. Access these endpoints to monitor and review the configuration and status of storage ports, ensuring optimal connectivity and performance across your environment.
 
 == Retrieving storage port information
 

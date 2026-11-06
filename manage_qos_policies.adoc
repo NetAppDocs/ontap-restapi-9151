@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_qos_policies.html'
+keywords: 'qos policies,quality of service,service level objectives,throughput limits,adaptive policies'
 summary: 'Manage QoS policies'
 ---
 
 = Manage QoS policies
+:imagesdir: ./media/
 
-
+[.lead]
+Configure quality of service (QoS) policies to define measurable service level objectives for storage objects. Use fixed or adaptive policies to manage throughput limits and enforce SLOs across multiple storage objects.
 
 == Quality of Service Configuration
 

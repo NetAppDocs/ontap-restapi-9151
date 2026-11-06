@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-cifs-domains-.html'
+keywords: 'cifs domain,svm uuid,cifs password,domain information,password reset,password change'
 summary: 'Modify the CIFS domain-related information for an SVM'
 ---
 
 = Modify the CIFS domain-related information for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Modifies the CIFS domain-related information for a specific SVM. This operation is useful for updating domain configurations or resetting passwords when managing CIFS services.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/cifs/domains/{svm.uuid}`#
 
-*Introduced In:* 9.13
+== Introduced in
+
+ONTAP 9.13
+
+== Usage notes
 
 Modifies the CIFS domain-related information of the specified SVM.
 

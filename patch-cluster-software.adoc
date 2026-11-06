@@ -3,16 +3,26 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-cluster-software.html'
+keywords: 'cluster software,software upgrade,version update,package installation,update validation,cluster nodes'
 summary: 'Update the cluster software version'
 ---
 
 = Update the cluster software version
+:imagesdir: ./media/
+
+[.lead]
+Updates the cluster software version to install the desired software package on the cluster. Use this endpoint when you need to manage software upgrades, including the ability to validate the package, pause or resume the upgrade, and customize node stabilization times.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/cluster/software`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates the cluster software version.
+ONTAP 9.6
+
+== Usage notes
+
 Important note:
 
 *** Setting 'version' triggers the package installation.
@@ -284,7 +294,7 @@ a|Version of ONTAP installed and currently active on the system. During PATCH, u
       "action": {
         "message": "string"
       },
-      "end_time": "2019-02-02 19:00:00 +0000",
+      "end_time": "2019-02-02 14:00:00 -0500",
       "issue": {
         "code": 10551399,
         "message": "Image update complete"
@@ -293,7 +303,7 @@ a|Version of ONTAP installed and currently active on the system. During PATCH, u
       "node": {
         "name": "node1"
       },
-      "start_time": "2019-02-02 19:00:00 +0000",
+      "start_time": "2019-02-02 14:00:00 -0500",
       "state": "failed"
     }
   ],

@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nvme-subsystem-maps.html'
+keywords: 'nvme subsystem,subsystem maps,namespace uuid,vserver nvme,svm name,ontap commands'
 summary: 'Retrieve NVMe subsystem maps'
 ---
 
 = Retrieve NVMe subsystem maps
+:imagesdir: ./media/
+
+[.lead]
+Retrieves NVMe subsystem maps to access configuration details for NVMe subsystems. This operation is essential when you need specific information about NVMe subsystem mappings for management or troubleshooting purposes.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nvme/subsystem-maps`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves NVMe subsystem maps.
+ONTAP 9.6
 
 == Expensive properties
 

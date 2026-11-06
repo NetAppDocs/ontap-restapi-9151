@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cifs_services.html'
+keywords: 'cifs server,storage virtual machine,smb clients,active directory,performance monitoring'
 summary: 'Manage CIFS services'
 ---
 
 = Manage CIFS services
+:imagesdir: ./media/
 
-
+[.lead]
+Manage CIFS services with these endpoints to provide SMB clients access to the Storage Virtual Machine (SVM). Use these APIs to create, retrieve, update, or delete CIFS server configurations, ensuring seamless integration with Active Directory domains and efficient management of SMB shares.
 
 == Overview
 

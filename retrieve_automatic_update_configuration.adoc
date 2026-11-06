@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'retrieve_automatic_update_configuration.html'
+keywords: 'automatic updates,configuration settings,update configuration,firmware settings,query updates'
 summary: 'Retrieve automatic update configuration'
 ---
 
 = Retrieve automatic update configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Query automatic update configurations to review the current settings. Utilize this API for retrieving comprehensive details about all automatic update configurations in your system.
 
 == Overview
 

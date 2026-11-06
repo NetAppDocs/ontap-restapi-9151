@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-application-consistency-groups-snapshots-.html'
+keywords: 'consistency group,snapshot details,snapshot copy,snapshot retrieval,missing volumes'
 summary: 'Retrieve a consistency group Snapshot copy'
 ---
 
 = Retrieve a consistency group Snapshot copy
+:imagesdir: ./media/
+
+[.lead]
+Retrieves details of a specific snapshot for a consistency group to examine its state and attributes. You might use this information to manage or analyze snapshot data within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups/{consistency_group.uuid}/snapshots/{uuid}`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves details of a specific snapshot for a consistency group.
+ONTAP 9.10
 
 == Expensive properties
 
@@ -319,7 +326,7 @@ a|Specifies whether a write fence will be taken when creating the Snapshot copy.
     "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
   },
   "consistency_type": "crash",
-  "create_time": "2020-10-25 11:20:00 +0000",
+  "create_time": "2020-10-25 07:20:00 -0400",
   "is_partial": "",
   "missing_volumes": [
     {

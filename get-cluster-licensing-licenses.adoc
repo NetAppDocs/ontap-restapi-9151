@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-licensing-licenses.html'
+keywords: 'license packages,licensed packages,unlicensed packages,ontap licenses,license retrieval,ontap licensing'
 summary: 'Retrieve license packages'
 ---
 
 = Retrieve license packages
+:imagesdir: ./media/
+
+[.lead]
+Retrieves information about license packages, gaining insight into the licenses currently available and their configurations.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/licensing/licenses`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of license packages.
 
@@ -278,12 +289,12 @@ a|
           "compliance": {
             "state": "compliant"
           },
-          "expiry_time": "2019-03-02 19:00:00 +0000",
+          "expiry_time": "2019-03-02 14:00:00 -0500",
           "host_id": "456-44-1234",
           "installed_license": "Core Bundle",
           "owner": "cluster1",
           "serial_number": "123456789",
-          "start_time": "2019-02-02 19:00:00 +0000"
+          "start_time": "2019-02-02 14:00:00 -0500"
         }
       ],
       "name": "NFS",

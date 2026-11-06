@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_home_directory_search_paths.html'
+keywords: 'home directory,search paths,cifs server,smb users,svm paths'
 summary: 'Manage home directory search paths'
 ---
 
 = Manage home directory search paths
+:imagesdir: ./media/
 
-
+[.lead]
+Configure and manage home directory search paths within an SVM to streamline access to SMB user directories on the CIFS server. These paths guide the system in locating dynamic shares for user home directories, providing efficient directory management across the cluster.
 
 == Overview
 

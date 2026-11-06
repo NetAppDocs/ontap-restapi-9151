@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-s3-services.html'
+keywords: 's3 server,s3 configuration,s3 buckets,s3 users,svm server,object store'
 summary: 'Create S3 server, users, and buckets configurations'
 ---
 
 = Create S3 server, users, and buckets configurations
+:imagesdir: ./media/
+
+[.lead]
+Creates configurations for an S3 server, users, and buckets within an existing storage virtual machine (SVM). Use this endpoint when you need to set up or modify S3 object storage services on your ONTAP system.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/s3/services`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Creates an S3 server, users, and buckets configurations.
 
@@ -180,7 +191,7 @@ a|This field cannot be specified in a PATCH method.
             "bucket_name": "bucket1",
             "expiration": {
               "object_age_days": 100,
-              "object_expiry_date": "2039-09-23 00:00:00 +0000"
+              "object_expiry_date": "2039-09-22 20:00:00 -0400"
             },
             "name": "string",
             "object_filter": {
@@ -294,7 +305,7 @@ a|This field cannot be specified in a PATCH method.
     {
       "access_key": "<AWS-ACCESS-KEY-ID>",
       "comment": "S3 user",
-      "key_expiry_time": "2024-01-01 00:00:00 +0000",
+      "key_expiry_time": "2023-12-31 19:00:00 -0500",
       "key_time_to_live": "PT6H3M",
       "name": "user-1",
       "svm": {
@@ -345,7 +356,7 @@ a|
       "users": [
         {
           "access_key": "<AWS-ACCESS-KEY-ID>",
-          "key_expiry_time": "2024-01-01 00:00:00 +0000",
+          "key_expiry_time": "2023-12-31 19:00:00 -0500",
           "name": "user-1",
           "secret_key": "<AWS-SECRET-ACCESS-KEY>"
         }

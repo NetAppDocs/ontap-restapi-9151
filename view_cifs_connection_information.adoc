@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_cifs_connection_information.html'
+keywords: 'cifs connection,established connections,cifs sessions,connection information,cifs retrieve'
 summary: 'View CIFS connection information'
 ---
 
 = View CIFS connection information
+:imagesdir: ./media/
 
-
+[.lead]
+Access current CIFS connection details to monitor active sessions in your ONTAP environment. Use these endpoints to retrieve a list of established connections, including relevant server and client information.
 
 == Overview
 

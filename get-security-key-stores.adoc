@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-key-stores.html'
+keywords: 'keystore retrieval,security keystore,ontap security,scope filter,location filter,svm filter'
 summary: 'Retrieve keystores'
 ---
 
 = Retrieve keystores
+:imagesdir: ./media/
+
+[.lead]
+Retrieves keystores to access the current configuration and status of your key management resources.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/key-stores`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves keystores.
+ONTAP 9.10
 
 == Related ONTAP commands
 

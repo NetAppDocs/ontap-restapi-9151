@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-group-policies-central-access-rules-.html'
+keywords: 'cifs group policies,central access rule,svm uuid,group policy rules,access rule retrieval'
 summary: 'Retrieve an applied central access rule for an SVM'
 ---
 
 = Retrieve an applied central access rule for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Retrieves an applied central access rule for a specific SVM to understand which rules are currently in effect. This can help you manage and audit access policies within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/group-policies/{svm.uuid}/central-access-rules/{name}`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Retrieves applied central access rule for specified SVM.
 
@@ -112,7 +123,7 @@ a|Last policy modification timestamp.
 ====
 [source,json,subs=+macros]
 {
-  "create_time": "2018-01-01 16:00:00 +0000",
+  "create_time": "2018-01-01 11:00:00 -0500",
   "current_permission": "O:SYG:SYD:AR(A;;FA;;;WD)",
   "description": "rule #1",
   "name": "p1",
@@ -127,7 +138,7 @@ a|Last policy modification timestamp.
     "name": "svm1",
     "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
   },
-  "update_time": "2018-01-01 16:00:00 +0000"
+  "update_time": "2018-01-01 11:00:00 -0500"
 }
 ====
 

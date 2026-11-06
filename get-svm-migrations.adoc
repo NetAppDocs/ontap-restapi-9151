@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-svm-migrations.html'
+keywords: 'svm migration,status retrieval,vserver migrate,cluster name,uuid filter,cutover time'
 summary: 'Retrieve the SVM migration status'
 ---
 
 = Retrieve the SVM migration status
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the migration status of a Storage Virtual Machine (SVM), helping you monitor and manage your data migration processes effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/svm/migrations`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves the SVM migration status.
 
@@ -339,13 +350,13 @@ a|
       "state": "string",
       "throttle": 0,
       "time_metrics": {
-        "cutover_complete_time": "2020-12-03 03:30:19 +0000",
-        "cutover_start_time": "2020-12-03 02:20:19 +0000",
-        "cutover_trigger_time": "2020-12-03 03:15:19 +0000",
-        "end_time": "2020-12-03 03:36:19 +0000",
-        "last_pause_time": "2020-12-03 02:50:19 +0000",
-        "last_resume_time": "2020-12-03 02:54:19 +0000",
-        "start_time": "2020-12-03 02:36:19 +0000"
+        "cutover_complete_time": "2020-12-02 22:30:19 -0500",
+        "cutover_start_time": "2020-12-02 21:20:19 -0500",
+        "cutover_trigger_time": "2020-12-02 22:15:19 -0500",
+        "end_time": "2020-12-02 22:36:19 -0500",
+        "last_pause_time": "2020-12-02 21:50:19 -0500",
+        "last_resume_time": "2020-12-02 21:54:19 -0500",
+        "start_time": "2020-12-02 21:36:19 -0500"
       },
       "uuid": "4ea7a442-86d1-11e0-ae1c-123478563412"
     }

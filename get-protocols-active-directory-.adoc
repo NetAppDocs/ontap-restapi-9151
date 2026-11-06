@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-active-directory-.html'
+keywords: 'active directory,svm uuid,active directory account,discovered servers,preferred dc'
 summary: 'Retrieve an Active Directory account for an SVM'
 ---
 
 = Retrieve an Active Directory account for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the Active Directory account associated with a specific SVM. This is useful for managing and verifying Active Directory configurations within your data management workflows.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/active-directory/{svm.uuid}`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Retrieves the Active Directory account for a given SVM.
 

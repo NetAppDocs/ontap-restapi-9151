@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-accounts.html'
+keywords: 'user account,rbac role,svm account,ldap authentication,mfa method,account creation'
 summary: 'Create a new user account'
 ---
 
 = Create a new user account
+:imagesdir: ./media/
+
+[.lead]
+Creates a new user account for managing access control and authentication within your system. You typically use this endpoint when setting up new users with specific roles and permissions to ensure secure and organized account management.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/accounts`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a new user account.
+ONTAP 9.6
 
 == Required parameters
 

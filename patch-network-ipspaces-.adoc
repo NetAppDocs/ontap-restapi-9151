@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-network-ipspaces-.html'
+keywords: 'ipspace update,network ipspace,ipspace rename,ipspace uuid,ipspace object,ipspace patch'
 summary: 'Update an IPspace object'
 ---
 
 = Update an IPspace object
+:imagesdir: ./media/
+
+[.lead]
+Updates an IPspace object to modify its attributes or configuration settings. This is typically done to reflect changes in your network topology or requirements.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/network/ipspaces/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates an IPspace object.
+ONTAP 9.6
 
 == Related ONTAP commands
 
