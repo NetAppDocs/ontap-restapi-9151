@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ip-service-policies.html'
+keywords: 'network interface,service policies,service policy collection,service policy retrieval,ipspace filter,svm filter'
 summary: 'Retrieve service policies'
 ---
 
 = Retrieve service policies
+:imagesdir: ./media/
+
+[.lead]
+Accesses a collection of service policies to review their configurations and details.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/service-policies`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of service policies.
 

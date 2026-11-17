@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-software-packages-.html'
+keywords: 'software package,cluster software,package information,version details,ontap commands'
 summary: 'Retrieve the software package information'
 ---
 
 = Retrieve the software package information
+:imagesdir: ./media/
+
+[.lead]
+Retrieves information about software packages, which helps you manage and update software versions in your system.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/software/packages/{version}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the software package information.
 
@@ -93,7 +104,7 @@ a|Version of this package
       "href": "/api/resourcelink"
     }
   },
-  "create_time": "2019-02-04 19:00:00 +0000",
+  "create_time": "2019-02-04 14:00:00 -0500",
   "version": "ONTAP_X"
 }
 ====

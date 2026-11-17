@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-storage-volumes-snapshots-.html'
+keywords: 'volume snapshot,update snapshot,modify snapshot,rename snapshot,storage volumes'
 summary: 'Update a volume Snapshot copy'
 ---
 
 = Update a volume Snapshot copy
+:imagesdir: ./media/
+
+[.lead]
+Updates a volume Snapshot copy to modify its configuration or attributes as needed. This allows you to manage storage resources effectively by ensuring that Snapshot copies reflect the desired state.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/storage/volumes/{volume.uuid}/snapshots/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates a Volume Snapshot copy.
+ONTAP 9.6
 
 == Related ONTAP commands
 
@@ -166,12 +173,12 @@ a|
 [source,json,subs=+macros]
 {
   "comment": "string",
-  "create_time": "2019-02-04 19:00:00 +0000",
+  "create_time": "2019-02-04 14:00:00 -0500",
   "delta": {
     "size_consumed": 0,
     "time_elapsed": "string"
   },
-  "expiry_time": "2019-02-04 19:00:00 +0000",
+  "expiry_time": "2019-02-04 14:00:00 -0500",
   "logical_size": 1228800,
   "name": "this_snapshot",
   "owners": [
@@ -183,10 +190,10 @@ a|
   "size": "122880",
   "snaplock": {
     "expired": 1,
-    "expiry_time": "2019-02-04 19:00:00 +0000",
+    "expiry_time": "2019-02-04 14:00:00 -0500",
     "time_until_expiry": "PT3H27M45S"
   },
-  "snaplock_expiry_time": "2019-02-04 19:00:00 +0000",
+  "snaplock_expiry_time": "2019-02-04 14:00:00 -0500",
   "snapmirror_label": "string",
   "state": "string",
   "svm": {

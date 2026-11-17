@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_scoped_user_accounts.html'
+keywords: 'scoped user accounts,manage user accounts,user account configuration,user account roles,user account password'
 summary: 'Manage scoped user accounts'
 ---
 
 = Manage scoped user accounts
+:imagesdir: ./media/
 
-
+[.lead]
+Manage the configuration of scoped user accounts to ensure they align with changing application needs and policy requirements. This group of endpoints enables you to update roles, authentication methods, and other account attributes, as well as lock or delete accounts as necessary.
 
 == Overview
 

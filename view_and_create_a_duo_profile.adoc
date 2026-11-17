@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_a_duo_profile.html'
+keywords: 'duo profile,secure shell,ssh configuration,integration key,svm owner'
 summary: 'View and create a Duo profile'
 ---
 
 = View and create a Duo profile
+:imagesdir: ./media/
 
-
+[.lead]
+Configure Duo profiles for secure shell (SSH) authentication using this API. Use these endpoints to create and retrieve profiles, specifying integration details such as keys and API host.
 
 == Overview
 

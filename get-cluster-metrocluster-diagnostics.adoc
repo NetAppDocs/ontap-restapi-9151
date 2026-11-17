@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-metrocluster-diagnostics.html'
+keywords: 'metrocluster diagnostics,diagnostic results,metrocluster configuration,diagnostic operation,cluster diagnostics'
 summary: 'Retrieve diagnostic operation results for a MetroCluster configuration'
 ---
 
 = Retrieve diagnostic operation results for a MetroCluster configuration
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the results of a completed diagnostic operation for a MetroCluster configuration to assess system health and performance.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/metrocluster/diagnostics`#
 
-*Introduced In:* 9.8
+== Introduced in
 
-Retrieves the results of a completed diagnostic operation for the MetroCluster configuration.
-
+ONTAP 9.8
 
 == Parameters
 
@@ -130,7 +136,7 @@ a|
           "name": "node1",
           "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
         },
-        "timestamp": "2016-03-10 22:35:16 +0000",
+        "timestamp": "2016-03-10 17:35:16 -0500",
         "volume": {
           "_links": {
             "self": {
@@ -147,7 +153,7 @@ a|
       "code": "string",
       "message": "string"
     },
-    "timestamp": "2016-03-10 22:35:16 +0000"
+    "timestamp": "2016-03-10 17:35:16 -0500"
   },
   "cluster": {
     "details": [
@@ -189,7 +195,7 @@ a|
           "name": "node1",
           "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
         },
-        "timestamp": "2016-03-10 22:35:16 +0000",
+        "timestamp": "2016-03-10 17:35:16 -0500",
         "volume": {
           "_links": {
             "self": {
@@ -206,7 +212,7 @@ a|
       "code": "string",
       "message": "string"
     },
-    "timestamp": "2016-03-10 22:35:16 +0000"
+    "timestamp": "2016-03-10 17:35:16 -0500"
   },
   "config-replication": {
     "state": "string",
@@ -214,7 +220,7 @@ a|
       "code": "string",
       "message": "string"
     },
-    "timestamp": "2016-03-14 22:35:16 +0000"
+    "timestamp": "2016-03-14 18:35:16 -0400"
   },
   "connection": {
     "details": [
@@ -265,7 +271,7 @@ a|
       "code": "string",
       "message": "string"
     },
-    "timestamp": "2016-03-10 22:35:16 +0000"
+    "timestamp": "2016-03-10 17:35:16 -0500"
   },
   "interface": {
     "state": "string",
@@ -273,7 +279,7 @@ a|
       "code": "string",
       "message": "string"
     },
-    "timestamp": "2016-03-10 22:35:16 +0000"
+    "timestamp": "2016-03-10 17:35:16 -0500"
   },
   "node": {
     "details": [
@@ -315,7 +321,7 @@ a|
           "name": "node1",
           "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
         },
-        "timestamp": "2016-03-10 22:35:16 +0000",
+        "timestamp": "2016-03-10 17:35:16 -0500",
         "volume": {
           "_links": {
             "self": {
@@ -332,7 +338,7 @@ a|
       "code": "string",
       "message": "string"
     },
-    "timestamp": "2016-03-10 22:35:16 +0000"
+    "timestamp": "2016-03-10 17:35:16 -0500"
   },
   "volume": {
     "details": [
@@ -374,7 +380,7 @@ a|
           "name": "node1",
           "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
         },
-        "timestamp": "2016-03-10 22:35:16 +0000",
+        "timestamp": "2016-03-10 17:35:16 -0500",
         "volume": {
           "_links": {
             "self": {
@@ -391,7 +397,7 @@ a|
       "code": "string",
       "message": "string"
     },
-    "timestamp": "2016-03-10 22:35:16 +0000"
+    "timestamp": "2016-03-10 17:35:16 -0500"
   }
 }
 ====

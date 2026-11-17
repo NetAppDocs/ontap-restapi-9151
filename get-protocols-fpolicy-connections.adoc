@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-fpolicy-connections.html'
+keywords: 'fpolicy connections,statuses,fpolicy servers,vserver fpolicy,svm uuid'
 summary: 'Retrieve the status of FPolicy servers'
 ---
 
 = Retrieve the status of FPolicy servers
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the current statuses of FPolicy servers, which helps you monitor and manage server operations effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/fpolicy/{svm.uuid}/connections`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves the statuses of FPolicy servers.
 
@@ -252,7 +263,7 @@ a|
         "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
       },
       "type": "primary",
-      "update_time": "2019-06-12 15:00:16 +0000"
+      "update_time": "2019-06-12 11:00:16 -0400"
     }
   ]
 }

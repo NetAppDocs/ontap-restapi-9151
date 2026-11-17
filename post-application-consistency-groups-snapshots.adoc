@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-application-consistency-groups-snapshots.html'
+keywords: 'consistency group,snapshot copy,create snapshot,consistency group uuid,group snapshot,copy duration'
 summary: 'Create a consistency group Snapshot copy'
 ---
 
 = Create a consistency group Snapshot copy
+:imagesdir: ./media/
+
+[.lead]
+Creates a Snapshot copy of a consistency group to preserve its current state. This is useful for backing up data or preparing for data recovery operations.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/application/consistency-groups/{consistency_group.uuid}/snapshots`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Creates a Snapshot copy of an existing consistency group.
 
@@ -167,7 +178,7 @@ a|Specifies whether a write fence will be taken when creating the Snapshot copy.
     "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
   },
   "consistency_type": "crash",
-  "create_time": "2020-10-25 11:20:00 +0000",
+  "create_time": "2020-10-25 07:20:00 -0400",
   "is_partial": "",
   "missing_volumes": [
     {

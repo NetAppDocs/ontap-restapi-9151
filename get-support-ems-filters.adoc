@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-support-ems-filters.html'
+keywords: 'event filters,retrieve filters,filter collection,ems filters,event severities,filter criteria'
 summary: 'Retrieve event filters'
 ---
 
 = Retrieve event filters
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a collection of event filters, which you can use to manage and organize events efficiently.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/ems/filters`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves a collection of event filters.
+ONTAP 9.6
 
 == Related ONTAP commands
 

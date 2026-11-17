@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_key_managers.html'
+keywords: 'key manager,volume encryption,waffle encryption,external key management,onboard key manager'
 summary: 'Manage key managers'
 ---
 
 = Manage key managers
+:imagesdir: ./media/
 
-
+[.lead]
+Explore endpoints that manage key managers for secure and persistent storage of encryption keys within your ONTAP environment. Utilize these endpoints to configure and maintain external and onboard key management solutions across clusters and SVMs, ensuring data encryption integrity.
 
 == Overview
 

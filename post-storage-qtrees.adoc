@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-qtrees.html'
+keywords: 'create qtree,flexvol volume,flexgroup volume,security style,unix permissions,export policy'
 summary: 'Create a qtree in a FlexVol or FlexGroup volume'
 ---
 
 = Create a qtree in a FlexVol or FlexGroup volume
+:imagesdir: ./media/
+
+[.lead]
+Creates a qtree in a FlexVol or FlexGroup volume. Use this to manage data organization and access within the specified volume.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/qtrees`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Creates a qtree in a FlexVol volume or a FlexGroup volume.
 

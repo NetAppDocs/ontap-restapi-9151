@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_san_initiators.html'
+keywords: 'san initiators,initiator groups,svm configuration,iscsi eui,fibre channel wwpn'
 summary: 'Manage SAN initiators'
 ---
 
 = Manage SAN initiators
+:imagesdir: ./media/
 
-
+[.lead]
+Manage SAN initiators using these endpoints to configure and monitor Fibre Channel and iSCSI identifiers within your storage virtual machines (SVMs). Access initiator properties to ensure the correct configuration and usage across your environment.
 
 == Overview
 

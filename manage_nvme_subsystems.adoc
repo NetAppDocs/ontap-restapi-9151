@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nvme_subsystems.html'
+keywords: 'nvme subsystem,namespace access,subsystem host,nvme host,os type'
 summary: 'Manage NVMe subsystems'
 ---
 
 = Manage NVMe subsystems
+:imagesdir: ./media/
 
-
+[.lead]
+Use the NVMe subsystems REST API to manage NVMe subsystems, including configuration state and namespace access control for NVMe-connected hosts. You can create, update, delete, and discover NVMe subsystems, as well as manage host access to namespaces within these subsystems.
 
 == Overview
 

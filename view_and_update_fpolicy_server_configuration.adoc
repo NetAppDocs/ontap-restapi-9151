@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_fpolicy_server_configuration.html'
+keywords: 'fpolicy server,connection status,svm cluster,disconnected reason,update configuration'
 summary: 'View and update FPolicy server configuration'
 ---
 
 = View and update FPolicy server configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Use these endpoints to view and update connection status information for external FPolicy servers. You can specify whether passthrough-read connections or regular server connections are returned.
 
 == Overview
 

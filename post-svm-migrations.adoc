@@ -3,16 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-svm-migrations.html'
+keywords: 'svm migration,destination cluster,source svm,volume placement,ipspace,pre-checks'
 summary: 'Create an SVM migration operation'
 ---
 
 = Create an SVM migration operation
+:imagesdir: ./media/
+
+[.lead]
+Creates an SVM migration operation to initiate the process of migrating a Storage Virtual Machine (SVM) to a destination cluster while maintaining its identity from the source cluster. You might use this to ensure continuity and consistency when moving SVMs between clusters, with options to configure volume placement and perform pre-checks.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/svm/migrations`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Creates an SVM migration operation. This API must be executed on the destination cluster. This API creates an SVM on the destination cluster and preserves the SVM's identity specified in the source cluster.
+ONTAP 9.10
+
+== Usage notes
+
+This API must be executed on the destination cluster. This API creates an SVM on the destination cluster and preserves the SVM's identity specified in the source cluster.
 Optionally, you can specify the aggregate list for creating the volumes, and IPspace. You can perform pre-checks to verify if SVM migration is possible, by setting the "check-only" option to "true". By default the values for auto-source-cleanup and auto-cutover is true.
 
 == Required properties
@@ -230,13 +241,13 @@ a|SVM migration UUID
   "state": "string",
   "throttle": 0,
   "time_metrics": {
-    "cutover_complete_time": "2020-12-03 03:30:19 +0000",
-    "cutover_start_time": "2020-12-03 02:20:19 +0000",
-    "cutover_trigger_time": "2020-12-03 03:15:19 +0000",
-    "end_time": "2020-12-03 03:36:19 +0000",
-    "last_pause_time": "2020-12-03 02:50:19 +0000",
-    "last_resume_time": "2020-12-03 02:54:19 +0000",
-    "start_time": "2020-12-03 02:36:19 +0000"
+    "cutover_complete_time": "2020-12-02 22:30:19 -0500",
+    "cutover_start_time": "2020-12-02 21:20:19 -0500",
+    "cutover_trigger_time": "2020-12-02 22:15:19 -0500",
+    "end_time": "2020-12-02 22:36:19 -0500",
+    "last_pause_time": "2020-12-02 21:50:19 -0500",
+    "last_resume_time": "2020-12-02 21:54:19 -0500",
+    "start_time": "2020-12-02 21:36:19 -0500"
   },
   "uuid": "4ea7a442-86d1-11e0-ae1c-123478563412"
 }
@@ -348,13 +359,13 @@ a|
       "state": "string",
       "throttle": 0,
       "time_metrics": {
-        "cutover_complete_time": "2020-12-03 03:30:19 +0000",
-        "cutover_start_time": "2020-12-03 02:20:19 +0000",
-        "cutover_trigger_time": "2020-12-03 03:15:19 +0000",
-        "end_time": "2020-12-03 03:36:19 +0000",
-        "last_pause_time": "2020-12-03 02:50:19 +0000",
-        "last_resume_time": "2020-12-03 02:54:19 +0000",
-        "start_time": "2020-12-03 02:36:19 +0000"
+        "cutover_complete_time": "2020-12-02 22:30:19 -0500",
+        "cutover_start_time": "2020-12-02 21:20:19 -0500",
+        "cutover_trigger_time": "2020-12-02 22:15:19 -0500",
+        "end_time": "2020-12-02 22:36:19 -0500",
+        "last_pause_time": "2020-12-02 21:50:19 -0500",
+        "last_resume_time": "2020-12-02 21:54:19 -0500",
+        "start_time": "2020-12-02 21:36:19 -0500"
       },
       "uuid": "4ea7a442-86d1-11e0-ae1c-123478563412"
     }

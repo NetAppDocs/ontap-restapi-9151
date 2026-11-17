@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nvme-interfaces.html'
+keywords: 'nvme interfaces,interface retrieval,storage protocols,node filters,transport protocols,record limit'
 summary: 'Retrieve NVMe interfaces'
 ---
 
 = Retrieve NVMe interfaces
+:imagesdir: ./media/
+
+[.lead]
+Accesses NVMe interfaces to view their configuration and operational status. This helps you monitor and manage NVMe resources effectively within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nvme/interfaces`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves NVMe interfaces.
 

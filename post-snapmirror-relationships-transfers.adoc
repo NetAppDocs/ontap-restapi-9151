@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-snapmirror-relationships-transfers.html'
+keywords: 'snapmirror transfer,snapmirror relationship,snapmirror restore,snapmirror initialize,snapmirror update,storage efficiency'
 summary: 'Start a SnapMirror transfer operation'
 ---
 
 = Start a SnapMirror transfer operation
+:imagesdir: ./media/
+
+[.lead]
+Initiates a SnapMirror transfer operation to either restore, initialize, or update a SnapMirror relationship. This operation is useful when you need to manage data replication and ensure data consistency across different storage environments.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/snapmirror/relationships/{relationship.uuid}/transfers`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Starts a SnapMirror transfer operation. This API initiates a restore operation if the SnapMirror relationship is of type "restore". Otherwise, it intiates a SnapMirror "initialize" operation or "update" operation based on the current SnapMirror state.
 
@@ -195,7 +206,7 @@ a|Unique identifier of the SnapMirror transfer.
 {
   "bytes_transferred": 0,
   "checkpoint_size": 0,
-  "end_time": "2020-12-03 02:36:19 +0000",
+  "end_time": "2020-12-02 21:36:19 -0500",
   "error_info": {
     "code": 6620046,
     "message": "Transfer aborted"
@@ -206,9 +217,12 @@ a|Unique identifier of the SnapMirror transfer.
       "source_path": "/dira/file1"
     }
   ],
-  "last_updated_time": "2023-09-15 23:58:39 +0000",
+  "last_updated_time": "2023-09-15 19:58:39 -0400",
   "network_compression_ratio": 61,
   "on_demand_attrs": "read_write_with_user_data_pull",
+  "options": [
+    {}
+  ],
   "relationship": {
     "destination": {
       "cluster": {

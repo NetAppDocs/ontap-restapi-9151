@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-snaplock-file-.html'
+keywords: 'snaplock retention,file retention,legal hold,snaplock file,retention details'
 summary: 'Retrieve SnapLock retention details of a file'
 ---
 
 = Retrieve SnapLock retention details of a file
+:imagesdir: ./media/
+
+[.lead]
+Obtains the SnapLock retention details for a specific file, which can include information such as an indefinite expiry time indicating a Legal-Hold status.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/snaplock/file/{volume.uuid}/{path}`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves the SnapLock retention details of the specified file. An indefinite expiry time indicates the file is under a Legal-Hold.
 
@@ -115,7 +126,7 @@ a|
       "href": "/api/resourcelink"
     }
   },
-  "expiry_time": "2058-06-04 19:00:00 +0000",
+  "expiry_time": "2058-06-04 15:00:00 -0400",
   "file_path": "/dir1/file",
   "is_expired": 1,
   "seconds_until_expiry": 168,

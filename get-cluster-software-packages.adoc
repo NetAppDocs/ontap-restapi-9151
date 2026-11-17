@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-software-packages.html'
+keywords: 'software packages,cluster software,package retrieval,version filter,record limit'
 summary: 'Retrieve cluster software packages'
 ---
 
 = Retrieve cluster software packages
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the software packages available for a cluster, which helps you manage and update cluster software efficiently.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/software/packages`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the software packages for a cluster.
 
@@ -144,7 +155,7 @@ a|
           "href": "/api/resourcelink"
         }
       },
-      "create_time": "2019-02-04 19:00:00 +0000",
+      "create_time": "2019-02-04 14:00:00 -0500",
       "version": "ONTAP_X"
     }
   ]

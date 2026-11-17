@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-shadowcopy-sets.html'
+keywords: 'shadowcopy sets,cifs shadowcopy,shadowcopy retrieval,cifs protocols,shadowcopy management'
 summary: 'Retrieve shadow copy sets'
 ---
 
 = Retrieve shadow copy sets
+:imagesdir: ./media/
+
+[.lead]
+Retrieves shadow copy sets to access or review available snapshots for a specified time, which can be useful in managing historical versions of data.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/shadowcopy-sets`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves Shadowcopy Sets.
 

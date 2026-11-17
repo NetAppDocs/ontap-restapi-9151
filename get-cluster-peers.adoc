@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-peers.html'
+keywords: 'cluster peers,retrieve cluster,peer collection,record limit,order results,timeout execution'
 summary: 'Retrieve cluster peers'
 ---
 
 = Retrieve cluster peers
+:imagesdir: ./media/
+
+[.lead]
+Retrieves cluster peers to view the connections between clusters, which can help in managing inter-cluster communication and data replication.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/peers`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the collection of cluster peers.
 
@@ -167,7 +178,7 @@ a|
       },
       "status": {
         "state": "available",
-        "update_time": "2017-01-25 11:20:13 +0000"
+        "update_time": "2017-01-25 06:20:13 -0500"
       },
       "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",
       "version": {

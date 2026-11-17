@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-group-policies-.html'
+keywords: 'group policies,cifs protocol,svm uuid,group policy objects,retrieve policies'
 summary: 'Retrieve unapplied group policy objects for an SVM'
 ---
 
 = Retrieve unapplied group policy objects for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Retrieves unapplied group policy objects for a specified SVM to identify which policies are still pending application.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/group-policies/{svm.uuid}`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Retrieves group policy objects that are yet to be applied for specified SVM.
 
@@ -87,7 +98,7 @@ a|
   "to_be_applied": {
     "access_policies": [
       {
-        "create_time": "2018-01-01 16:00:00 +0000",
+        "create_time": "2018-01-01 11:00:00 -0500",
         "description": "policy #1",
         "member_rules": [
           "r1",
@@ -104,12 +115,12 @@ a|
           "name": "svm1",
           "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
         },
-        "update_time": "2018-01-01 16:00:00 +0000"
+        "update_time": "2018-01-01 11:00:00 -0500"
       }
     ],
     "access_rules": [
       {
-        "create_time": "2018-01-01 16:00:00 +0000",
+        "create_time": "2018-01-01 11:00:00 -0500",
         "current_permission": "O:SYG:SYD:AR(A;;FA;;;WD)",
         "description": "rule #1",
         "name": "p1",
@@ -124,7 +135,7 @@ a|
           "name": "svm1",
           "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
         },
-        "update_time": "2018-01-01 16:00:00 +0000"
+        "update_time": "2018-01-01 11:00:00 -0500"
       }
     ],
     "objects": [

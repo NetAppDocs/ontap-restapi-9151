@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_role_privilege_path.html'
+keywords: 'role privilege,access level,command path,snapshots files,ontap s3'
 summary: 'Manage role privilege path'
 ---
 
 = Manage role privilege path
+:imagesdir: ./media/
 
-
+[.lead]
+Manage role privilege paths by retrieving, modifying, or deleting access levels and associated queries for REST API or command paths within roles. Utilize these endpoints to adjust role permissions for specified paths, allowing for precise control over command and data access in your environment.
 
 == Overview
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-gcp-kms-rekey-internal.html'
+keywords: 'gcp kms,rekey internal,key hierarchy,google cloud,key manager,svm rekey'
 summary: 'Re-key the internal key in the key hierarchy for an SVM'
 ---
 
 = Re-key the internal key in the key hierarchy for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Rekeys the internal key in the key hierarchy for an SVM configured with Google Cloud KMS, ensuring secure key management. Use this operation to maintain encryption standards and compliance when key changes are required.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/gcp-kms/{uuid}/rekey-internal`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Rekeys the internal key in the key hierarchy for an SVM with a Google Cloud KMS configuration.
 

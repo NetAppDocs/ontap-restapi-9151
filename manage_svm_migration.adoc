@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_svm_migration.html'
+keywords: 'svm migration,cluster peering,temperature-sensitive storage,volume transfer,throttle value'
 summary: 'Manage SVM migration'
 ---
 
 = Manage SVM migration
+:imagesdir: ./media/
 
-
+[.lead]
+Use the SVM migration APIs to transfer a storage virtual machine from one ONTAP cluster to another. During the migration process, you can manage operations such as pausing, resuming, or aborting the migration and track the status of both the migration and the volume transfers. Note that these endpoints must be accessed from the destination cluster.
 
 = Overview
 

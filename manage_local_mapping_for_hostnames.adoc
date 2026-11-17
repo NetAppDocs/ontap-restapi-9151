@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_local_mapping_for_hostnames.html'
+keywords: 'hostname management,local mapping,hosts table,svm address,hostname aliases'
 summary: 'Manage local mapping for hostnames'
 ---
 
 = Manage local mapping for hostnames
+:imagesdir: ./media/
 
-
+[.lead]
+Manage local mapping for hostnames within your network. Use these endpoints to display, create, update, and delete entries in the hosts table, facilitating efficient hostname resolution and administration.
 
 == Overview
 

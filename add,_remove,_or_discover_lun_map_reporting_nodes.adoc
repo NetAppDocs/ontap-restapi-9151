@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'add,_remove,_or_discover_lun_map_reporting_nodes.html'
+keywords: 'selective lun map,reporting nodes,lun map discovery,cluster node,ontap san'
 summary: 'Add, remove, or discover LUN map reporting nodes'
 ---
 
 = Add, remove, or discover LUN map reporting nodes
+:imagesdir: ./media/
 
-
+[.lead]
+Manage the reporting nodes in a LUN map to optimize network path advertisements in SAN environments using ONTAP's Selective LUN Map (SLM) feature. Adjust these settings when moving mapped LUNs or volumes within a cluster to ensure efficient and active LUN paths.
 
 == Overview
 

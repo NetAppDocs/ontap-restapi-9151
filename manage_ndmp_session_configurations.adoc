@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ndmp_session_configurations.html'
+keywords: 'ndmp session,ndmp configuration,svm scope,node scope,diagnostic information'
 summary: 'Manage NDMP session configurations'
 ---
 
 = Manage NDMP session configurations
+:imagesdir: ./media/
 
-
+[.lead]
+Manage NDMP session configurations to handle diagnostic information for sessions associated with specific Storage Virtual Machines (SVMs) or nodes. Use these endpoints to retrieve or delete session details within the defined scope.
 
 You can use this API to manage diagnostic information on NDMP sessions belonging to a specific SVM in the case of SVM-scope or to a specific node in the case of node-scope.
 

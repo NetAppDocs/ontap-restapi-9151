@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'retrieve_clients.html'
+keywords: 'i/o activity,top clients,volume metrics,read operations,write operations'
 summary: 'Retrieve clients'
 ---
 
 = Retrieve clients
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve a list of clients with the most I/O activity for a specified volume using the ONTAP REST API. Specify the type of I/O activity to filter by, such as `iops` or `throughput`, for insight into client activity. Note that the list is approximate and may exclude clients when activity is high.
 
 == Overview
 

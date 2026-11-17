@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-namespaces-.html'
+keywords: 'nvme namespace,storage namespace,uuid retrieval,namespace status,subsystem map,statistics metric'
 summary: 'Retrieve an NVMe namespace'
 ---
 
 = Retrieve an NVMe namespace
+:imagesdir: ./media/
+
+[.lead]
+Retrieves details of an NVMe namespace, which can help you understand its configuration and status within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/namespaces/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves an NVMe namespace.
 
@@ -178,7 +189,7 @@ a|The unique identifier of the NVMe namespace.
     }
   },
   "comment": "string",
-  "create_time": "2018-06-04 19:00:00 +0000",
+  "create_time": "2018-06-04 15:00:00 -0400",
   "location": {
     "namespace": "namespace1",
     "node": {
@@ -232,7 +243,7 @@ a|The unique identifier of the NVMe namespace.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000"
+    "timestamp": "2017-01-25 06:20:13 -0500"
   },
   "name": "/vol/volume1/qtree1/namespace1",
   "os_type": "string",
@@ -258,7 +269,7 @@ a|The unique identifier of the NVMe namespace.
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000"
+    "timestamp": "2017-01-25 06:20:13 -0500"
   },
   "status": {
     "container_state": "string",

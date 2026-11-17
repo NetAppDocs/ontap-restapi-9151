@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_licensing.html'
+keywords: 'cluster licensing, license compliance, netapp license, licensing terms, license scope, feature package'
 summary: 'Manage cluster licensing'
 ---
 
 = Manage cluster licensing
+:imagesdir: ./media/
 
-
+[.lead]
+Manage cluster licensing to tailor your system according to organizational needs by enabling new features through purchased licenses. The API provides functionality to view both licensed and unlicensed packages, install licenses in various formats, and ensure compliance based on licensing terms and cluster state.
 
 == Overview
 

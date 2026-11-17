@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_lock_details.html'
+keywords: 'lock details,cifs protocol,lock synchronization,view locks,break locks'
 summary: 'View lock details'
 ---
 
 = View lock details
+:imagesdir: ./media/
 
-
+[.lead]
+Explore lock details to synchronize concurrent file access and manage limits effectively. You can view or break locks using various query fields, optimizing access control across multiple clients.
 
 == Overview
 

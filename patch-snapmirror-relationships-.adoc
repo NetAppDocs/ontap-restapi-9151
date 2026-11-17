@@ -3,16 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-snapmirror-relationships-.html'
+keywords: 'snapmirror update,snapmirror relationship,snapmirror operations,snapmirror modify,snapmirror policy,snapmirror failover'
 summary: 'Update a SnapMirror relationship'
 ---
 
 = Update a SnapMirror relationship
+:imagesdir: ./media/
+
+[.lead]
+Updates a SnapMirror relationship to initiate various SnapMirror operations, such as "initialize", "resync", "break", "quiesce", and "resume". This endpoint is also used to modify the SnapMirror policy, manage failover and failback operations, and reverse the direction of relationships, facilitating comprehensive control over SnapMirror configurations and actions.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/snapmirror/relationships/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates a SnapMirror relationship. This API is used to initiate SnapMirror operations such as "initialize", "resync", "break", "quiesce", and "resume" by specifying the appropriate value for the "state" field. It is also used to modify the SnapMirror policy associated with the specified relationship. Additionally, a SnapMirror relationship can be failed over to the destination endpoint or a failed over SnapMirror relationship can be failed back to the original state or a SnapMirror relationship direction can be reversed using this API. This API can also be used to expand the SnapMirror active sync relationship with the specified source and destination volumes.
+ONTAP 9.6
+
+== Usage notes
+
+This API is used to initiate SnapMirror operations such as "initialize", "resync", "break", "quiesce", and "resume" by specifying the appropriate value for the "state" field. It is also used to modify the SnapMirror policy associated with the specified relationship. Additionally, a SnapMirror relationship can be failed over to the destination endpoint or a failed over SnapMirror relationship can be failed back to the original state or a SnapMirror relationship direction can be reversed using this API. This API can also be used to expand the SnapMirror active sync relationship with the specified source and destination volumes.
 
 To initialize the relationship, PATCH the state to "snapmirrored" for relationships with a policy of type "async" or "in_sync" for relationships with a policy of type "sync".
 
@@ -472,8 +483,8 @@ a|Unique identifier of the SnapMirror relationship.
   "total_transfer_bytes": 1098210312,
   "total_transfer_duration": "PT3M21S",
   "transfer": {
-    "end_time": "2020-12-03 02:36:19 +0000",
-    "last_updated_time": "2023-09-14 22:39:19 +0000",
+    "end_time": "2020-12-02 21:36:19 -0500",
+    "last_updated_time": "2023-09-14 18:39:19 -0400",
     "state": "string",
     "total_duration": "PT28M41S",
     "type": "initialize",

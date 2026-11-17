@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ethernet-broadcast-domains.html'
+keywords: 'broadcast domains,cluster broadcast,network ethernet,cluster network,network domains'
 summary: 'Retrieve broadcast domains for the entire cluster'
 ---
 
 = Retrieve broadcast domains for the entire cluster
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a collection of broadcast domains for the entire cluster to view the network configurations across different domains. This is useful for managing and verifying your cluster's network setup.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ethernet/broadcast-domains`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves a collection of broadcast domains for the entire cluster.
+ONTAP 9.6
 
 == Related ONTAP commands
 

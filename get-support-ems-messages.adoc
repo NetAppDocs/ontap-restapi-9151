@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-support-ems-messages.html'
+keywords: 'event catalog,ems messages,event definitions,severity filter,snmp trap,corrective action'
 summary: 'Retrieve event catalog definitions'
 ---
 
 = Retrieve event catalog definitions
+:imagesdir: ./media/
+
+[.lead]
+Retrieves event catalog definitions to understand the events that can occur within the system. This helps you manage and respond to different system states effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/ems/messages`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the event catalog definitions.
+ONTAP 9.6
 
 == Related ONTAP commands
 

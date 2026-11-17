@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ethernet-ports-.html'
+keywords: 'network port,ethernet port,physical port,vlan details,lag details,port uuid'
 summary: 'Retrieve a physical port, VLAN, or LAG details'
 ---
 
 = Retrieve a physical port, VLAN, or LAG details
+:imagesdir: ./media/
+
+[.lead]
+Retrieves detailed information about a physical port, VLAN, or LAG, helping you understand the configuration and status of these network components.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ethernet/ports/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the details of a physical port, VLAN, or LAG.
 
@@ -245,7 +256,7 @@ a|
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000"
+    "timestamp": "2017-01-25 06:20:13 -0500"
   },
   "mtu": 1500,
   "name": "e1b",
@@ -286,7 +297,7 @@ a|
         "errors": 200,
         "packets": 500
       },
-      "timestamp": "2017-01-25 11:20:13 +0000",
+      "timestamp": "2017-01-25 06:20:13 -0500",
       "transmit_raw": {
         "discards": 100,
         "errors": 200,
@@ -299,7 +310,7 @@ a|
       "total": 1000,
       "write": 100
     },
-    "timestamp": "2017-01-25 11:20:13 +0000"
+    "timestamp": "2017-01-25 06:20:13 -0500"
   },
   "type": "string",
   "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",

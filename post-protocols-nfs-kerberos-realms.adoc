@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-nfs-kerberos-realms.html'
+keywords: 'kerberos realm,nfs kerberos,realm creation,key distribution,active directory'
 summary: 'Create a Kerberos realm'
 ---
 
 = Create a Kerberos realm
+:imagesdir: ./media/
+
+[.lead]
+Creates a Kerberos realm to configure authentication settings for secure access to network resources. This is typically used to establish a trusted identity verification system within your network environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/nfs/kerberos/realms`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a Kerberos realm.
+ONTAP 9.6
 
 == Required properties
 

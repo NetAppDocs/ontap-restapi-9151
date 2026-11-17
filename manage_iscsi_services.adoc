@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_iscsi_services.html'
+keywords: 'iscsi target,iscsi service,svm performance,create iscsi,target alias'
 summary: 'Manage iSCSI services'
 ---
 
 = Manage iSCSI services
+:imagesdir: ./media/
 
-
+[.lead]
+Manage iSCSI services to define and configure the iSCSI target properties for Storage Virtual Machines (SVMs). Use these endpoints to create, update, delete, and discover iSCSI services, ensuring initiators can log in to the SVM. You can also monitor performance metrics, including IOPS, latency, and throughput.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nfs_export_policies.html'
+keywords: 'nfs export policies,export policy details,create export policy,update export policy,delete export policy'
 summary: 'Manage NFS export policies'
 ---
 
 = Manage NFS export policies
+:imagesdir: ./media/
 
-
+[.lead]
+Manage NFS export policies to define rules that control access to your network file system resources. Use these endpoints to retrieve, create, update, or delete export policies and rules, tailoring access permissions for specific clients.
 
 == Export Policies
 

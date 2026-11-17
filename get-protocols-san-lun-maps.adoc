@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-lun-maps.html'
+keywords: 'lun maps,retrieve lun,igroup filter,logical unit number,svm filter,san protocols'
 summary: 'Retrieve LUN maps'
 ---
 
 = Retrieve LUN maps
+:imagesdir: ./media/
+
+[.lead]
+Accesses LUN maps to view the mappings between LUNs and initiators. Use this information to verify and manage storage area network configurations.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/lun-maps`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves LUN maps.
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_volume_efficiency_policies.html'
+keywords: 'volume efficiency,efficiency policy,storage volume,manage efficiency,volume policy'
 summary: 'Manage volume efficiency policies'
 ---
 
 = Manage volume efficiency policies
+:imagesdir: ./media/
 
-
+[.lead]
+Use volume efficiency policy APIs to manage efficiency settings applied to volumes. These endpoints enable you to create, retrieve, update, and delete policies to optimize storage usage.
 
 :doctype: book
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_multi-admin-verify_rules.html'
+keywords: 'multi-admin,verify rules,ontap commands,admin approval,command protection'
 summary: 'Manage multi-admin-verify rules'
 ---
 
 = Manage multi-admin-verify rules
+:imagesdir: ./media/
 
-
+[.lead]
+Manage multi-admin-verify rules to ensure that specific ONTAP operations are protected by requiring approval from multiple administrators. When this feature is active, designated operations are enforced to gain multi-admin approval before execution.
 
 == Overview
 

@@ -3,16 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-support-configuration-backup-backups.html'
+keywords: 'configuration backup,backup creation,backup file,name extension,node uuid,node name'
 summary: 'Create a configuration backup'
 ---
 
 = Create a configuration backup
+:imagesdir: ./media/
+
+[.lead]
+Creates a configuration backup to preserve system settings for restoration or migration purposes.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/support/configuration-backup/backups`#
 
-*Introduced In:* 9.7
+== Introduced in
 
-Creates a configuration backup. The required backup file name must end with .7z extension.
+ONTAP 9.7
+
+== Usage notes
+
+The required backup file name must end with .7z extension.
 
 == Required properties
 
@@ -131,7 +142,7 @@ a|The software version.
     "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
   },
   "size": 4787563,
-  "time": "2019-02-04 18:33:48 +0000",
+  "time": "2019-02-04 13:33:48 -0500",
   "type": "string",
   "version": "9.7.0"
 }

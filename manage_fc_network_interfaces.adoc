@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fc_network_interfaces.html'
+keywords: 'fibre channel,fc interfaces,nvme fc,performance monitoring,interface placement,node relocation'
 summary: 'Manage FC network interfaces'
 ---
 
 = Manage FC network interfaces
+:imagesdir: ./media/
 
-
+[.lead]
+Explore how to manage Fibre Channel (FC) network interfaces using the FC interface REST API. These endpoints facilitate the creation, deletion, update, and discovery of FC interfaces, providing access to storage through FCP or NVMe/FC protocols. Performance monitoring and interface placement recommendations optimize connectivity within your storage environment.
 
 == Overview
 

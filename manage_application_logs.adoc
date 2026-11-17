@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_application_logs.html'
+keywords: 'application logs, ontap system, ems events, autosupport, log severity'
 summary: 'Manage application logs'
 ---
 
 = Manage application logs
+:imagesdir: ./media/
 
-
+[.lead]
+Log application events on the ONTAP system using POST requests, creating EMS events and optionally triggering AutoSupports based on severity. Use these endpoints to encapsulate event information in app.log.x or callhome.client.app.x events, facilitating monitoring and troubleshooting.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_security_login_messages.html'
+keywords: 'security login,login messages,login configuration,login banner,message of the day'
 summary: 'Manage security login messages'
 ---
 
 = Manage security login messages
+:imagesdir: ./media/
 
-
+[.lead]
+Manage security login messages configuration to display and update login messages in your cluster. Use GET requests to retrieve the login messages, and PATCH requests to modify them by cluster scope or specific UUID.
 
 == Overview
 

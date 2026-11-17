@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-support-ems.html'
+keywords: 'ems configuration,update ems,ems settings,event management,ontap ems'
 summary: 'Update an EMS configuration'
 ---
 
 = Update an EMS configuration
+:imagesdir: ./media/
+
+[.lead]
+Updates the Event Management System (EMS) configuration to modify how events are processed and logged. This allows you to tailor the configuration to meet specific monitoring and alerting needs.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/support/ems`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates the EMS configuration.
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_svm_fpolicy_configuration.html'
+keywords: 'svm fpolicy, fpolicy configuration, file access control, policy management, fpolicy engine'
 summary: 'Manage SVM FPolicy configuration'
 ---
 
 = Manage SVM FPolicy configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Configure and manage FPolicy policies within your SVM to control file access and monitor events effectively. These endpoints facilitate policy creation, enabling, and disabling, as well as setting priorities and defining specific scopes for storage objects or file types. Use these configurations to ensure efficient notification delivery to FPolicy engines or implement native file blocking based on specified criteria.
 
 == Overview
 

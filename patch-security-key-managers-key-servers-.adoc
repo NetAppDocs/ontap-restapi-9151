@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-security-key-managers-key-servers-.html'
+keywords: 'primary key server,external key manager,key server updates,modify server,security key manager'
 summary: 'Update a primary key server'
 ---
 
 = Update a primary key server
+:imagesdir: ./media/
+
+[.lead]
+Updates the configuration of a primary key server to ensure it aligns with your current security management needs.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/key-managers/{uuid}/key-servers/{server}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates a primary key server.
 

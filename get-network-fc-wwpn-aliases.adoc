@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-fc-wwpn-aliases.html'
+keywords: 'fc aliases,wwpn aliases,network fc,svm filter,ontap wwpn'
 summary: 'Retrieve FC WWPN aliases'
 ---
 
 = Retrieve FC WWPN aliases
+:imagesdir: ./media/
+
+[.lead]
+Retrieves FC WWPN aliases to view the current alias configuration for Fibre Channel networks.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/fc/wwpn-aliases`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves FC WWPN aliases.
+ONTAP 9.6
 
 == Related ONTAP commands
 

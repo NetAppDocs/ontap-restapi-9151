@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-certificates-.html'
+keywords: 'security certificates,retrieve certificates,certificate uuid,security certificate show,ontap certificates'
 summary: 'Retrieve security certificates'
 ---
 
 = Retrieve security certificates
+:imagesdir: ./media/
+
+[.lead]
+Retrieves security certificates to view the existing certificates for secure communications.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/certificates/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves security certificates.
+ONTAP 9.6
 
 == Related ONTAP commands
 
@@ -168,7 +175,7 @@ a|Unique ID that identifies a certificate.
   },
   "ca": "string",
   "common_name": "test.domain.com",
-  "expiry_time": "2030-01-25 11:20:13 +0000",
+  "expiry_time": "2030-01-25 06:20:13 -0500",
   "hash_function": "string",
   "key_size": 512,
   "name": "string",

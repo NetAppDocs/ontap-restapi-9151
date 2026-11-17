@@ -3,16 +3,26 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-vscan-on-access-policies.html'
+keywords: 'vscan policy, on-access policy, svm policy, file scan policy, vscan configuration, svm uuid'
 summary: 'Create a Vscan On-Access policy'
 ---
 
 = Create a Vscan On-Access policy
+:imagesdir: ./media/
+
+[.lead]
+Creates a Vscan On-Access policy to define how files are scanned for viruses on an SVM. By establishing this policy, you ensure that files are checked for potential threats based on the configurations you set.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/vscan/{svm.uuid}/on-access-policies`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a Vscan On-Access policy.
+ONTAP 9.6
+
+== Usage notes
+
 </b>Important notes:
 
 * You must enable the policy on an SVM before its files can be scanned.

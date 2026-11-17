@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_host_cache_settings.html'
+keywords: 'host cache,cache settings,manage cache,svm cache,cache update'
 summary: 'Manage host cache settings'
 ---
 
 = Manage host cache settings
+:imagesdir: ./media/
 
-
+[.lead]
+Manage and retrieve host cache settings using these endpoints to optimize and control caching behavior in your environment.
 
 == Overview
 

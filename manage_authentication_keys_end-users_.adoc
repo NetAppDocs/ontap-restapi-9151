@@ -2,13 +2,16 @@
 sidebar: sidebar
 api: true
 explorer: false
-permalink: 'manage_authentication_keys_(end-users).html'
+permalink: 'manage_authentication_keys_end-users_.html'
+keywords: 'public keys,manage authentication,configure keys,user account keys,key modification,key deletion'
 summary: 'Manage authentication keys (end-users)'
 ---
 
 = Manage authentication keys (end-users)
+:imagesdir: ./media/
 
-
+[.lead]
+Configure public keys for end-user accounts using this API. These endpoints facilitate specifying the owner UUID, user account name, and index in the URI path for managing keys associated with SVMs.
 
 == Overview
 

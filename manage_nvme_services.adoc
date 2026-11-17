@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nvme_services.html'
+keywords: 'nvme controller,svm nvme,non-volatile memory,performance monitoring,iops latency,delete nvme'
 summary: 'Manage NVMe services'
 ---
 
 = Manage NVMe services
+:imagesdir: ./media/
 
-
+[.lead]
+Manage NVMe services to configure, update, and monitor NVMe controller targets for your Storage Virtual Machines (SVMs). Establish an NVMe service before connecting NVMe host initiators to ensure seamless integration and performance tracking.
 
 == Overview
 

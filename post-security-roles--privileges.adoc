@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-roles--privileges.html'
+keywords: 'role privilege,access level,svm role,volume snapshots,command directory'
 summary: 'Add a privilege tuple to an existing role'
 ---
 
 = Add a privilege tuple to an existing role
+:imagesdir: ./media/
+
+[.lead]
+Adds a privilege tuple to an existing role, which defines access permissions for a specified REST URI or command path. This operation allows you to manage role-based access control by updating existing roles or creating new ones with precise privilege configurations.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/roles/{owner.uuid}/{name}/privileges`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Adds a privilege tuple (of REST URI or command/command directory path, its access level and an optional query, if the "path" refers to a command/command directory path) to an existing role or creates a new role with the provided tuple.
 

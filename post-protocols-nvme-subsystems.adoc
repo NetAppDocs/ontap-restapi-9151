@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-nvme-subsystems.html'
+keywords: 'nvme subsystem,create nvme,svm uuid,svm name,os type,nvme hosts'
 summary: 'Create an NVMe subsystem'
 ---
 
 = Create an NVMe subsystem
+:imagesdir: ./media/
+
+[.lead]
+Creates an NVMe subsystem, specifying the storage virtual machine (SVM) and the operating system of the hosts. Use this endpoint when you need to set up a new NVMe subsystem within an existing SVM.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/nvme/subsystems`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates an NVMe subsystem.
+ONTAP 9.6
 
 == Required properties
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_broadcast_domains.html'
+keywords: 'broadcast domains,ethernet ports,layer 2 connectivity,ipspace configuration,port membership'
 summary: 'Manage broadcast domains'
 ---
 
 = Manage broadcast domains
+:imagesdir: ./media/
 
-
+[.lead]
+Broadcast domains group Ethernet ports with layer 2 connectivity to determine where interfaces can be hosted. Use the broadcast domain REST API to manage broadcast domains by retrieving, creating, modifying, or deleting them while handling port memberships separately with specific endpoints.
 
 == Overview
 

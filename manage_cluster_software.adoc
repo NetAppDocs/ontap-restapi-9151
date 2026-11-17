@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_software.html'
+keywords: 'cluster software,software packages,software upgrade,firmware upgrade,software installation history'
 summary: 'Manage cluster software'
 ---
 
 = Manage cluster software
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage cluster software information, including software profiles, packages, and firmware upgrade status. Use these endpoints to download packages, upgrade software versions, and monitor ongoing updates within your cluster environment.
 
 :doctype: book
 

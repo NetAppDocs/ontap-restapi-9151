@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_ipsec_configuration.html'
+keywords: 'ipsec status,ipsec configuration,view ipsec,update ipsec,security ipsec'
 summary: 'View and update IPsec configuration'
 ---
 
 = View and update IPsec configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve and modify IPsec configurations to manage secure communication settings within your network. Use these endpoints to check and update the IPsec status as needed for maintaining security standards.
 
 == Overview
 

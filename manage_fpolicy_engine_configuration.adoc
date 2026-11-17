@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fpolicy_engine_configuration.html'
+keywords: 'fpolicy engine, file access notifications, external servers, synchronous type, asynchronous type'
 summary: 'Manage FPolicy engine configuration'
 ---
 
 = Manage FPolicy engine configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Configure the FPolicy engine to manage file access notifications sent to external servers. Customize the notification process by setting primary and secondary servers, port numbers, engine type, and notification format. These configurations help ensure proper communication during file operations and can be tailored for synchronous or asynchronous processing.
 
 == Overview
 

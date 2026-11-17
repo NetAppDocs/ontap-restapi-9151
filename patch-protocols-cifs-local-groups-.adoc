@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-cifs-local-groups-.html'
+keywords: 'local groups,svm uuid,cifs update,group rename,netapp ontap'
 summary: 'Update local group information for a group in an SVM'
 ---
 
 = Update local group information for a group in an SVM
+:imagesdir: ./media/
+
+[.lead]
+Updates the local group information for a specified group within an SVM, which includes the ability to rename the group. Use this when you need to modify group details or change its name in your SVM configuration.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/cifs/local-groups/{svm.uuid}/{sid}`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Updates the local group information of the specified group in the specified SVM. This API can also be used to rename a local group.
 
@@ -93,6 +104,9 @@ a|SVM, applies only to SVM-scoped objects.
 [source,json,subs=+macros]
 {
   "description": "This is a local group",
+  "members": [
+    {}
+  ],
   "name": "SMB_SERVER01\\group",
   "sid": "S-1-5-21-256008430-3394229847-3930036330-1001",
   "svm": {

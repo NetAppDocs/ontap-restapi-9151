@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-svm-migrations-.html'
+keywords: 'svm migration,svm cutover,migration pause,migration resume,source cleanup'
 summary: 'Update actions performed during an SVM migration'
 ---
 
 = Update actions performed during an SVM migration
+:imagesdir: ./media/
+
+[.lead]
+Updates the actions performed during an SVM migration to manage and control the migration process.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/svm/migrations/{uuid}`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Actions that can be performed during an SVM migration.
 
@@ -190,13 +201,13 @@ a|SVM migration UUID
   "state": "string",
   "throttle": 0,
   "time_metrics": {
-    "cutover_complete_time": "2020-12-03 03:30:19 +0000",
-    "cutover_start_time": "2020-12-03 02:20:19 +0000",
-    "cutover_trigger_time": "2020-12-03 03:15:19 +0000",
-    "end_time": "2020-12-03 03:36:19 +0000",
-    "last_pause_time": "2020-12-03 02:50:19 +0000",
-    "last_resume_time": "2020-12-03 02:54:19 +0000",
-    "start_time": "2020-12-03 02:36:19 +0000"
+    "cutover_complete_time": "2020-12-02 22:30:19 -0500",
+    "cutover_start_time": "2020-12-02 21:20:19 -0500",
+    "cutover_trigger_time": "2020-12-02 22:15:19 -0500",
+    "end_time": "2020-12-02 22:36:19 -0500",
+    "last_pause_time": "2020-12-02 21:50:19 -0500",
+    "last_resume_time": "2020-12-02 21:54:19 -0500",
+    "start_time": "2020-12-02 21:36:19 -0500"
   },
   "uuid": "4ea7a442-86d1-11e0-ae1c-123478563412"
 }

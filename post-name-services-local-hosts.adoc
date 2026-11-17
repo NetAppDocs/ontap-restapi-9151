@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-name-services-local-hosts.html'
+keywords: 'local hosts,ip mapping,hostname mapping,create mapping,dns hosts,ipv4 ipv6'
 summary: 'Create a new IP to hostname mapping'
 ---
 
 = Create a new IP to hostname mapping
+:imagesdir: ./media/
+
+[.lead]
+Creates a new mapping between an IP address and a hostname. This is useful when you need to associate an IP address with a specific hostname for streamlined network management within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/name-services/local-hosts`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Creates a new IP to hostname mapping.
 

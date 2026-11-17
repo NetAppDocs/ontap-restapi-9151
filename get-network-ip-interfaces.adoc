@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ip-interfaces.html'
+keywords: 'network interfaces,ip interfaces,interface details,service policy,ipspace'
 summary: 'Retrieve all IP interface details'
 ---
 
 = Retrieve all IP interface details
+:imagesdir: ./media/
+
+[.lead]
+Retrieves comprehensive details of all IP interfaces, helping you understand the network configuration and current interface settings.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/interfaces`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the details of all IP interfaces.
 
@@ -552,7 +563,7 @@ a|
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 11:20:13 +0000"
+        "timestamp": "2017-01-25 06:20:13 -0500"
       },
       "name": "dataLif1",
       "probe_port": 64001,
@@ -580,7 +591,7 @@ a|
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 11:20:13 +0000"
+        "timestamp": "2017-01-25 06:20:13 -0500"
       },
       "subnet": {
         "_links": {

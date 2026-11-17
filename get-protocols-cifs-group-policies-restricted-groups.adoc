@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-group-policies-restricted-groups.html'
+keywords: 'cifs policies,restricted groups,svm policies,group policy,svm uuid,applied policies'
 summary: 'Retrieve applied restricted group policies for an SVM'
 ---
 
 = Retrieve applied restricted group policies for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the restricted group policies that are applied to a specified SVM to review the current access restrictions in place.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/group-policies/{svm.uuid}/restricted-groups`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Retrieves applied policies of restricted groups for specified SVM.
 

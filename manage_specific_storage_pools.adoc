@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_specific_storage_pools.html'
+keywords: 'storage pools,manage storage,storage pool properties,update storage,storage capacity'
 summary: 'Manage specific storage pools'
 ---
 
 = Manage specific storage pools
+:imagesdir: ./media/
 
-
+[.lead]
+Utilize operations to update storage pool properties, such as renaming the pool or adjusting disk counts, to manage and optimize storage capacity. Restricted operations ensure safety by preventing simultaneous modifications. For planning, simulate expansions to preview capacity changes without committing them.
 
 == Updating storage pools
 

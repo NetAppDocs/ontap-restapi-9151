@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-namespaces.html'
+keywords: 'nvme namespaces,retrieve namespaces,nvme storage,nvme subsystem,subsystem map'
 summary: 'Retrieve NVMe namespaces'
 ---
 
 = Retrieve NVMe namespaces
+:imagesdir: ./media/
+
+[.lead]
+Retrieves NVMe namespaces to access their configuration and status information. This can be useful for managing and monitoring NVMe storage resources efficiently.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/namespaces`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves NVMe namespaces.
+ONTAP 9.6
 
 == Expensive properties
 
@@ -602,7 +609,7 @@ a|
         }
       },
       "comment": "string",
-      "create_time": "2018-06-04 19:00:00 +0000",
+      "create_time": "2018-06-04 15:00:00 -0400",
       "location": {
         "namespace": "namespace1",
         "node": {
@@ -656,7 +663,7 @@ a|
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 11:20:13 +0000"
+        "timestamp": "2017-01-25 06:20:13 -0500"
       },
       "name": "/vol/volume1/qtree1/namespace1",
       "os_type": "string",
@@ -682,7 +689,7 @@ a|
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 11:20:13 +0000"
+        "timestamp": "2017-01-25 06:20:13 -0500"
       },
       "status": {
         "container_state": "string",

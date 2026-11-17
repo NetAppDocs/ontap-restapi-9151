@@ -2,13 +2,16 @@
 sidebar: sidebar
 api: true
 explorer: false
-permalink: 'view_and_update_oauth_2.0_status.html'
+permalink: 'view_and_update_oauth_2_0_status.html'
+keywords: 'oauth status,oauth cluster,enable oauth,disable oauth,oauth security,update oauth'
 summary: 'View and update OAuth 2.0 status'
 ---
 
 = View and update OAuth 2.0 status
+:imagesdir: ./media/
 
-
+[.lead]
+Use this API to manage the OAuth 2.0 status in your cluster, including enabling and disabling the feature.
 
 == Overview
 

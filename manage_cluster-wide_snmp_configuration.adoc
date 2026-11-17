@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster-wide_snmp_configuration.html'
+keywords: 'snmp configuration,snmp traps,snmp authentication,snmp test trap,cluster snmp,disable snmp'
 summary: 'Manage cluster-wide SNMP configuration'
 ---
 
 = Manage cluster-wide SNMP configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Configure and manage cluster-wide SNMP settings to monitor and secure network activity within your ONTAP environment. Use these endpoints to enable or disable SNMP protocols, authentication traps, and test traps, as well as set server contact and location details.
 
 == Overview
 

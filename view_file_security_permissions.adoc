@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_file_security_permissions.html'
+keywords: 'file security,permissions,user access,effective permission,windows user,unix user'
 summary: 'View file security permissions'
 ---
 
 = View file security permissions
+:imagesdir: ./media/
 
-
+[.lead]
+Access and view the effective file security permissions granted to Windows or UNIX users on specified file or folder paths. Use this API to validate user access rights within your storage environment.
 
 :doctype: book
 

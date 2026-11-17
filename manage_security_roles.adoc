@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_security_roles.html'
+keywords: 'security roles,role based access control,user privileges,predefined roles,custom roles'
 summary: 'Manage security roles'
 ---
 
 = Manage security roles
+:imagesdir: ./media/
 
-
+[.lead]
+Manage security roles using ONTAP's Role Based Access Control (RBAC) to define privileges and rights for user accounts. These endpoints help you configure roles with specific access levels, enabling precise control over API methods and command operations. Use them to create, modify, and retrieve both predefined and custom roles for secure system administration.
 
 == Overview
 

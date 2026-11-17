@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-file-clone-split-loads.html'
+keywords: 'clone split load,split load data,load information,node load,storage clone'
 summary: 'Retrieve the clone split load of a node'
 ---
 
 = Retrieve the clone split load of a node
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the clone split load of a node to understand the current and allowable data undergoing the split process. This helps you manage and monitor the split load effectively within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/file/clone/split-loads`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves the clone split load of a node.
+ONTAP 9.10
 
 == Related Ontap Commands
 

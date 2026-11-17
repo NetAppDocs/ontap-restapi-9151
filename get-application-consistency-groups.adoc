@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-application-consistency-groups.html'
+keywords: 'consistency group,retrieval details,volume granular,storage slc,fabric pool,replication relationships'
 summary: 'Retrieve details of a collection or consistency group'
 ---
 
 = Retrieve details of a collection or consistency group
+:imagesdir: ./media/
+
+[.lead]
+Retrieves details of a collection or specific consistency group, helping you understand its configuration and status. Use this when you need to assess consistency group properties or replication relationships.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieve details of a collection or a specific consistency group.
 
@@ -2753,7 +2764,7 @@ a|
           "luns": [
             {
               "comment": "string",
-              "create_time": "2018-06-04 19:00:00 +0000",
+              "create_time": "2018-06-04 15:00:00 -0400",
               "lun_maps": [
                 {
                   "igroup": {
@@ -2811,7 +2822,7 @@ a|
           "namespaces": [
             {
               "comment": "string",
-              "create_time": "2018-06-04 19:00:00 +0000",
+              "create_time": "2018-06-04 15:00:00 -0400",
               "name": "/vol/volume1/qtree1/namespace1",
               "os_type": "string",
               "space": {
@@ -2901,6 +2912,9 @@ a|
             "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
           },
           "tiering": {
+            "object_stores": [
+              {}
+            ],
             "policy": "string"
           },
           "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",
@@ -3015,6 +3029,9 @@ a|
                 "used": 0
               },
               "tiering": {
+                "object_stores": [
+                  {}
+                ],
                 "policy": "string"
               },
               "uuid": "028baa66-41bd-11e9-81d5-00a0986138f7"
@@ -3025,7 +3042,7 @@ a|
       "luns": [
         {
           "comment": "string",
-          "create_time": "2018-06-04 19:00:00 +0000",
+          "create_time": "2018-06-04 15:00:00 -0400",
           "lun_maps": [
             {
               "igroup": {
@@ -3104,14 +3121,14 @@ a|
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 11:20:13 +0000",
+        "timestamp": "2017-01-25 06:20:13 -0500",
         "used_space": 4096
       },
       "name": "string",
       "namespaces": [
         {
           "comment": "string",
-          "create_time": "2018-06-04 19:00:00 +0000",
+          "create_time": "2018-06-04 15:00:00 -0400",
           "name": "/vol/volume1/qtree1/namespace1",
           "os_type": "string",
           "space": {
@@ -3220,7 +3237,7 @@ a|
           "total": 1000,
           "write": 100
         },
-        "timestamp": "2017-01-25 11:20:13 +0000",
+        "timestamp": "2017-01-25 06:20:13 -0500",
         "used_space": 4096
       },
       "svm": {
@@ -3233,6 +3250,9 @@ a|
         "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
       },
       "tiering": {
+        "object_stores": [
+          {}
+        ],
         "policy": "string"
       },
       "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",
@@ -3347,6 +3367,9 @@ a|
             "used": 0
           },
           "tiering": {
+            "object_stores": [
+              {}
+            ],
             "policy": "string"
           },
           "uuid": "028baa66-41bd-11e9-81d5-00a0986138f7"

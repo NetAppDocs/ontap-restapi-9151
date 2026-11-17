@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-san-iscsi-services.html'
+keywords: 'iscsi service,create iscsi,svm iscsi,ontap iscsi,san protocols'
 summary: 'Create an iSCSI service'
 ---
 
 = Create an iSCSI service
+:imagesdir: ./media/
+
+[.lead]
+Creates an iSCSI service within a specified SVM, enabling the setup of iSCSI protocols for storage networking. Use this endpoint to establish iSCSI configurations critical for connecting storage devices over IP networks.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/san/iscsi/services`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates an iSCSI service.
+ONTAP 9.6
 
 == Required properties
 

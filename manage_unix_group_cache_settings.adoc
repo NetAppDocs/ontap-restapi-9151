@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_unix_group_cache_settings.html'
+keywords: 'unix group,cache settings,group management,svm settings,cache retrieval'
 summary: 'Manage UNIX group cache settings'
 ---
 
 = Manage UNIX group cache settings
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage UNIX group cache settings with these endpoints to optimize configuration and performance in your environment. Use these APIs to access and update cache settings for specific Storage Virtual Machines (SVMs) as needed.
 
 == Overview
 

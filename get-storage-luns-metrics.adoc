@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-luns-metrics.html'
+keywords: 'lun metrics,performance metrics,historical metrics,lun uuid,latency analysis,throughput analysis'
 summary: 'Retrieve historical performance metrics for a LUN'
 ---
 
 = Retrieve historical performance metrics for a LUN
+:imagesdir: ./media/
+
+[.lead]
+Retrieves historical performance metrics for a LUN to analyze its past performance and identify trends or issues over time.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/luns/{lun.uuid}/metrics`#
 
-*Introduced In:* 9.14
+== Introduced in
 
-Retrieves historical performance metrics for a LUN.
-
+ONTAP 9.14
 
 == Parameters
 
@@ -270,7 +276,7 @@ a|
         "total": 1000,
         "write": 100
       },
-      "timestamp": "2017-01-25 11:20:13 +0000",
+      "timestamp": "2017-01-25 06:20:13 -0500",
       "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
     }
   ]

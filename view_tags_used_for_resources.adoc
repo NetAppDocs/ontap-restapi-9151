@@ -3,16 +3,19 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_tags_used_for_resources.html'
+keywords: 'tags,resource tags,tracking tags,used tags,tagging resources'
 summary: 'View tags used for resources'
 ---
 
 = View tags used for resources
+:imagesdir: ./media/
 
-
+[.lead]
+Use these endpoints to retrieve a list of all tags applied to resources within the API. This functionality is useful for tracking and organizing resources based on their assigned tags.
 
 = Overview
 
-You can use this endpoint to list all of the tags that have been used on resources in the API. See the section labelled <<Tagging_Resources_for_Tracking_Purposes,Tagging Resources for Tracking Purposes>> to find out more information about how to tag a resource.
+You can use this endpoint to list all of the tags that have been used on resources in the API. See the section labelled link:getting_started_with_the_ontap_rest_api.html#Tagging_Resources_for_Tracking_Purposes[Tagging Resources for Tracking Purposes] to find out more information about how to tag a resource.
 
 == Examples
 

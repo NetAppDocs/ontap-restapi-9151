@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_dns_configurations.html'
+keywords: 'dns configuration,dns servers,dns domain name,dynamic dns,svm scope'
 summary: 'Manage DNS configurations'
 ---
 
 = Manage DNS configurations
+:imagesdir: ./media/
 
-
+[.lead]
+Manage DNS configurations to display DNS information and control the DNS subsystem within your ONTAP environment. Utilize these endpoints to retrieve, create, update, and delete DNS configurations for specified SVMs, ensuring proper domain name resolution and server availability.
 
 == Overview
 

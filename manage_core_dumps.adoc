@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_core_dumps.html'
+keywords: 'core dumps,cluster management,kernel dumps,delete core,core dump retrieval'
 summary: 'Manage core dumps'
 ---
 
 = Manage core dumps
+:imagesdir: ./media/
 
-
+[.lead]
+Access and manage core dumps within your ONTAP cluster using the core dump endpoints. Retrieve all core dumps on a node or cluster, or delete specified core dumps when necessary.
 
 == Overview
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-support-configuration-backup-backups.html'
+keywords: 'configuration backup,retrieve backup,list backups,backup files,backup filters,configuration management'
 summary: 'Retrieve configuration backup files'
 ---
 
 = Retrieve configuration backup files
+:imagesdir: ./media/
+
+[.lead]
+Retrieves configuration backup files to access a list of saved system configurations, which can assist in restoring or reviewing previous settings.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/configuration-backup/backups`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves a list of configuration backup files.
 
@@ -204,7 +215,7 @@ a|
         "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412"
       },
       "size": 4787563,
-      "time": "2019-02-04 18:33:48 +0000",
+      "time": "2019-02-04 13:33:48 -0500",
       "type": "string",
       "version": "9.7.0"
     }

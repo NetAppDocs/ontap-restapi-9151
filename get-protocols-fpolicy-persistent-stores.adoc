@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-fpolicy-persistent-stores.html'
+keywords: 'fpolicy configuration,persistent store,svm uuid,volume filter,autosize mode,record limit'
 summary: 'Retrieve the FPolicy persistent store configurations for an SVM'
 ---
 
 = Retrieve the FPolicy persistent store configurations for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the FPolicy persistent store configurations for a specific SVM to examine the current settings and make informed management decisions.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/fpolicy/{svm.uuid}/persistent-stores`#
 
-*Introduced In:* 9.14
+== Introduced in
+
+ONTAP 9.14
+
+== Usage notes
 
 Retrieves FPolicy Persistent Store configurations for a specified SVM.
 

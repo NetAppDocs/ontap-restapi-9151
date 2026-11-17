@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_active_directory_domain_controllers.html'
+keywords: 'active directory,domain controllers,svm configuration,preferred dc,get configuration'
 summary: 'Manage Active Directory domain controllers'
 ---
 
 = Manage Active Directory domain controllers
+:imagesdir: ./media/
 
-
+[.lead]
+Interact with Active Directory domain controller configurations using these endpoints. Display, create, and delete preferred domain controller settings for a specific SVM, ensuring optimal directory service operation within your ONTAP environment.
 
 == Overview
 

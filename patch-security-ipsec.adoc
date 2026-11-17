@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-security-ipsec.html'
+keywords: 'ipsec configuration,security ipsec,ipsec update,ipsec modify,rest ipsec'
 summary: 'Update an IPsec configuration'
 ---
 
 = Update an IPsec configuration
+:imagesdir: ./media/
+
+[.lead]
+Updates the IPsec configuration to modify the security settings for network communications. This is useful when you need to adjust encryption settings or manage secure connections.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/ipsec`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Updates IPsec configuration via REST APIs.
 

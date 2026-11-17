@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ipsec_security_certificates.html'
+keywords: 'ipsec certificates,certificate management,ca certificates,security certificates,manage ipsec'
 summary: 'Manage IPsec security certificates'
 ---
 
 = Manage IPsec security certificates
+:imagesdir: ./media/
 
-
+[.lead]
+Manage IPsec security certificates to create, retrieve, and delete IPsec CA certificates efficiently. Use these endpoints to handle certificate operations as part of your security infrastructure.
 
 == Overview
 
